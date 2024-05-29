@@ -10,19 +10,9 @@
 # Discord: https://www.spigotmc.org/go/discord
 # Forums: http://www.spigotmc.org/
 
-commands:
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  tab-complete: 0
-  send-namespaced: true
 settings:
+  debug: false
+  bungeecord: false
   sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
@@ -42,8 +32,25 @@ settings:
       max: 2048.0
   log-villager-deaths: true
   log-named-deaths: true
-  debug: false
-  bungeecord: false
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
 advancements:
   disable-saving: false
   disabled:
@@ -53,7 +60,7 @@ players:
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
-    verbose: true
+    verbose: false
     zombie-aggressive-towards-villager: true
     merge-radius:
       exp: 3.0
@@ -61,10 +68,8 @@ world-settings:
     mob-spawn-range: 6
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
-    wither-spawn-sound-radius: 0
+    nerf-spawner-mobs: false
     end-portal-sound-radius: 0
-    hanging-tick-frequency: 100
-    thunder-chance: 100000
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -89,6 +94,10 @@ world-settings:
       misc: 16
       tick-inactive-villagers: true
       ignore-spectators: false
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
     enable-zombie-pigmen-portal-spawns: true
     entity-tracking-range:
       players: 48
@@ -96,10 +105,6 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-desert: 14357617
@@ -128,17 +133,12 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    item-despawn-rate: 6000
     view-distance: default
-    nerf-spawner-mobs: false
     simulation-distance: default
-messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+    thunder-chance: 100000
+    item-despawn-rate: 6000
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
 config-version: 12
 stats:
   disable-saving: false
