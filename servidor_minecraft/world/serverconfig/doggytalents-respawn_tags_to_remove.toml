@@ -1,0 +1,6 @@
+#Other: Defaulted to 0
+#Range: > -2147483648
+restore_strategy = 0
+respawn_removal_tags = []
+tags_to_keep = []
+

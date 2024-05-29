@@ -1,0 +1,54 @@
+
+["Dog Constants"]
+	#your Dog to recover health.
+	disable_hunger = false
+	#with DTN.
+	enable_starter_bundle = false
+	#can mate with each other. Set this to true to disable this behaviour.
+	disable_dog_gender = false
+	#When enabled, puppies get some levels from their parents. When disabled, puppies start at 0 points.
+	enable_pup_get_parent_levels = false
+	#Instead, when his health reaches Zero, he will go into Incapacitated Mode.
+	immortal_dogs = true
+	#When enabled, dog can play tag with you. To make them play, throw a snowball at them.
+	play_tag_with_dog = true
+	#And when you come back, they will rush to you and greet you with love!
+	dog_greet_owner = true
+	#YOU HAVE BEEN WARNED! :)
+	#Range: > -2147483648
+	dog_greet_owner_limit = 5
+	#being so wide that it includes Creepers which are not in danger zone or not reachable.
+	max_creeper_sweeper_dont_growl = true
+	#This is used to always be the case with friendly fire disabled for a single dog.
+	all_player_cannot_attack_dog = false
+	#to have Cross Origin Teleport set to true on that dog.
+	all_dog_block_portal = true
+	#at the same time. Set this to any negative value to remove the limit completely.
+	#Range: > -2147483648
+	max_heel_limit = 20
+	#another dog into a dangerous area and improves navigation.
+	prevent_dogs_pushing_each_other = true
+	#ex: Set this to 0.5 to halve the Dog Hunger decrease speed.
+	#Range: 0.0 ~ 2.0
+	hunger_modifier = 1.0
+	#and when they respawn on bed. This also allows Duplication Detection.
+	disable_preserve_uuid = false
+	#Other - Do nothing.
+	#Range: > -2147483648
+	duplication_resolve_strategy = 0
+	#with a Training Treat. Set this to True to disable.
+	disable_train_untamed_wolf = false
+	#Set this to False to disable.
+	dog_respawn_incapacitated_when_killed = true
+	#Enable this if you prefer Mob Retriever to only work with DTN's dog.
+	mob_retriever_only_carry_dog = false
+	#try to calculate the appropriate path while carrying another mob, there might be accidental suffocations.
+	wolf_mount_passenger_collision = true
+	#Dogs of the same dimension.
+	conducting_bone_cross_origin = true
+	#while being Incapacitated.
+	incap_val_reset_when_hurt = true
+	#will disable the cap, meaning players can get unlimited dogs.
+	#Range: > -2147483648
+	train_wolf_limit = -1
+
