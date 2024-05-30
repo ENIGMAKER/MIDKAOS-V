@@ -1,91 +1,109 @@
-2024-05-30 16:30:57,466 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-2024-05-30 16:30:57,484 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
-2024-05-30 16:30:57,692 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
-2024-05-30 16:30:58,858 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(55)[m: Found 5 dependencies adding them to mods collection
-2024-05-30 16:31:04,767 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
-2024-05-30 16:31:05,276 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-2024-05-30 16:31:05,290 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-2024-05-30 16:31:05,295 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-2024-05-30 16:31:05,315 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
-2024-05-30 16:31:05,648 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
-2024-05-30 16:31:06,495 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
-2024-05-30 16:31:06,496 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
-2024-05-30 16:31:07,639 [1;31mFATAL[m [m[main][m [mn.m.f.l.RuntimeDistCleaner.processClassWithFlags(56)[m: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-2024-05-30 16:31:07,641 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-2024-05-30 16:31:07,642 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-2024-05-30 16:31:07,644 [1;31mFATAL[m [m[main][m [mn.m.f.l.RuntimeDistCleaner.processClassWithFlags(56)[m: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-2024-05-30 16:31:07,644 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-2024-05-30 16:31:07,645 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-2024-05-30 16:31:07,648 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-2024-05-30 16:31:07,649 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-2024-05-30 16:31:13,740 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 24.0, extensionBottom 0.0, extensionHeight 24.0 took 199 milliseconds
-2024-05-30 16:31:13,897 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 16.0, extensionBottom 0.0, extensionHeight 16.0 took 156 milliseconds
-2024-05-30 16:31:14,175 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 1.0, nodeHeight 16.0, extensionBottom 6.0, extensionHeight 15.0 took 267 milliseconds
-2024-05-30 16:31:21,210 [33mWARN [m [m[main][m [mmixin.warn(132)[m: @ModifyVariable(@At("INVOKE")) Shift.BY=4 on infernal-expansion.mixins.json:common.MixinMultiNoiseBiomeSourcePreset::localvar$zzi000$IE_addNetherBiomes exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-2024-05-30 16:31:22,177 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(129)[m: Infernal Expansion: Sound Events Registered!
-2024-05-30 16:31:22,477 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(312)[m: Infernal Expansion: Blocks Registered!
-2024-05-30 16:31:22,479 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(149)[m: Infernal Expansion: Items Registered!
-2024-05-30 16:31:22,482 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(38)[m: Infernal Expansion: Effects Registered!
-2024-05-30 16:31:22,492 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(41)[m: Infernal Expansion: Potions Registered!
-2024-05-30 16:31:22,511 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(124)[m: Infernal Expansion: Entity Types Registered!
-2024-05-30 16:31:22,526 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(44)[m: Infernal Expansion: Painting Types Registered!
-2024-05-30 16:31:22,536 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(38)[m: Infernal Expansion: Tile Entity Types Registered!
-2024-05-30 16:31:22,588 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(55)[m: Infernal Expansion: Biomes Registered!
-2024-05-30 16:31:22,612 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(87)[m: Infernal Expansion: Loot Modifiers Registered!
-2024-05-30 16:31:22,637 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(27)[m: Infernal Expansion: Entity Classifications Registered!
-2024-05-30 16:31:22,705 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.preInit(29)[m: Pre-init started!
-2024-05-30 16:31:22,706 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.preInit(31)[m: Registering config
-2024-05-30 16:31:22,891 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(75)[m: Registering particles
-2024-05-30 16:31:22,895 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(90)[m: Registering items
-2024-05-30 16:31:22,899 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(60)[m: Registering entities
-2024-05-30 16:31:22,946 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(29)[m: Registering sounds
-2024-05-30 16:31:22,947 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.registerCapabilities(58)[m: Registering capabilities
-2024-05-30 16:31:23,519 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,522 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,523 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,524 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,525 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,526 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-2024-05-30 16:31:23,844 [32mINFO [m [m[modloading-worker-0][m [md.k.m.Melody.init(20)[m: [MELODY] Disabling Melody since it's loaded server-side.
-2024-05-30 16:31:24,256 [32mINFO [m [m[modloading-worker-0][m [md.k.k.Konkrete.<init>(62)[m: [KONKRETE] Successfully initialized!
-2024-05-30 16:31:24,258 [32mINFO [m [m[modloading-worker-0][m [md.k.k.Konkrete.<init>(63)[m: [KONKRETE] Server-side libs ready to use!
-2024-05-30 16:31:25,666 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id architectury:sync_ids
-2024-05-30 16:31:26,635 [32mINFO [m [m[modloading-worker-0][m [mDungeon Crawl.<init>(52)[m: Here we go! Launching Dungeon Crawl 2.3.14...
-2024-05-30 16:31:26,671 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
-2024-05-30 16:31:26,671 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
-2024-05-30 16:31:26,934 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
-2024-05-30 16:31:27,491 [32mINFO [m [m[ForkJoinPool.commonPool-worker-3][m [mfriendsandfoes.lambda$checkForNewUpdates$0(51)[m: An update for Friends&Foes is available! You're using 1.4.6 version but the latest version is 1.4.8!
-2024-05-30 16:31:27,663 [32mINFO [m [m[modloading-worker-0][m [md.i.b.BetterAnimalsPlusMod.construct(50)[m: Injecting super coyotes...
-2024-05-30 16:31:27,679 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/23ca639241d73eaf919246602470f295
-2024-05-30 16:31:27,692 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/d8f3c48219d933a6b2302c4d780df514
-2024-05-30 16:31:27,693 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/dd94e2f3f0db361b8621d0f834adec1b
-2024-05-30 16:31:27,697 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/59f1974289d63eb58cbd6fe813098096
-2024-05-30 16:31:27,703 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/fd8d1482ead03ca8a9954263aa7f6289
-2024-05-30 16:31:28,563 [32mINFO [m [m[modloading-worker-0][m [mc.t.r.AbstractRegistrate.registerEventListeners(239)[m: Detected new forge version, registering events reflectively.
-2024-05-30 16:31:28,607 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id whisperwoods:main_channel/cdff7a8a5b4f3f218b5f77ef22e66016
-2024-05-30 16:31:28,613 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id whisperwoods:main_channel/773a011a51b630fba84ab824165fbd92
-2024-05-30 16:31:28,615 [32mINFO [m [m[modloading-worker-0][m [md.i.w.WhisperwoodsMod.construct(30)[m: Spooking you...
-2024-05-30 16:31:28,625 [32mINFO [m [m[modloading-worker-0][m [mSpartan Shields.info(12)[m: Constructing Mod: Spartan Shields
-2024-05-30 16:31:28,719 [32mINFO [m [m[modloading-worker-0][m [mt.k.t.KotlinForForge.<clinit>(10)[m: Kotlin For Forge Enabled!
-2024-05-30 16:31:28,732 [32mINFO [m [m[modloading-worker-0][m [mlibIPN.info(76)[m: [libIPN] libIPN - init in Kotlin
-2024-05-30 16:31:29,378 [32mINFO [m [m[modloading-worker-0][m [mPuzzles Lib.construct(30)[m: Constructing common components for diagonalfences:main
-2024-05-30 16:31:29,447 [32mINFO [m [m[modloading-worker-0][m [mPuzzles Lib.construct(30)[m: Constructing common components for puzzleslib:main
-2024-05-30 16:31:30,421 [32mINFO [m [m[modloading-worker-0][m [mb.f.e.ExpandAbility.init(12)[m: ExpandAbility here, who dis?
-2024-05-30 16:31:30,698 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModBlockEntityTypes.onModConstruction(28)[m: Loaded block entity configuration.
-2024-05-30 16:31:30,752 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModBlocks.onModConstruction(101)[m: Loaded block configuration.
-2024-05-30 16:31:30,757 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModChiselModeGroups.onModConstruction(140)[m: Loaded chisel mode group configuration.
-2024-05-30 16:31:32,640 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModChiselModes.onModConstruction(292)[m: Loaded chisel mode configuration.
-2024-05-30 16:31:32,652 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModContainerTypes.onModConstruction(48)[m: Loaded container type configuration.
-2024-05-30 16:31:32,666 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModCreativeTabs.onModConstruction(61)[m: Loaded item group configuration.
-2024-05-30 16:31:32,769 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModItems.onModConstruction(106)[m: Loaded item configuration.
-2024-05-30 16:31:32,773 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModMetadataKeys.onModConstruction(84)[m: Loaded metadata key configuration.
-2024-05-30 16:31:32,778 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModelProperties.onModConstruction(24)[m: Loaded model property configuration.
-2024-05-30 16:31:32,796 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModificationOperation.onModConstruction(51)[m: Loaded modification operation configuration.
-2024-05-30 16:31:32,797 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModificationOperationGroups.onModConstruction(51)[m: Loaded modification operation group configuration.
-2024-05-30 16:31:32,803 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModPatternPlacementTypes.onModConstruction(45)[m: Loaded pattern placement type configuration.
-2024-05-30 16:31:32,815 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModRecipeSerializers.onModConstruction(30)[m: Loaded recipe serializer configuration.
-2024-05-30 16:31:32,816 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModTags.onModConstruction(53)[m: Loaded tag configuration.
-2024-05-30 16:31:35,722 [32mINFO [m [m[main][m [mn.j.h.Hexerei.onBlocksRegistry(371)[m: HELLO from Register Block
-2024-05-30 16:31:54,767 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `golden_apple`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
-2024-05-30 16:31:54,768 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `enchanted_golden_apple`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
-2024-05-30 16:31:54,768 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `golden_carrot`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:33:59,194 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2024-05-30 16:33:59,200 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+2024-05-30 16:33:59,431 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2024-05-30 16:34:00,436 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(55)[m: Found 5 dependencies adding them to mods collection
+2024-05-30 16:34:05,854 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
+2024-05-30 16:34:06,205 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+2024-05-30 16:34:06,211 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+2024-05-30 16:34:06,213 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+2024-05-30 16:34:06,228 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-05-30 16:34:06,441 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
+2024-05-30 16:34:07,098 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
+2024-05-30 16:34:07,099 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
+2024-05-30 16:34:08,269 [1;31mFATAL[m [m[main][m [mn.m.f.l.RuntimeDistCleaner.processClassWithFlags(56)[m: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+2024-05-30 16:34:08,270 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+2024-05-30 16:34:08,270 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+2024-05-30 16:34:08,271 [1;31mFATAL[m [m[main][m [mn.m.f.l.RuntimeDistCleaner.processClassWithFlags(56)[m: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+2024-05-30 16:34:08,271 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+2024-05-30 16:34:08,271 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+2024-05-30 16:34:08,273 [33mWARN [m [m[main][m [mmixin.warn(132)[m: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+2024-05-30 16:34:08,273 [33mWARN [m [m[main][m [mmixin.log(107)[m: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+2024-05-30 16:34:13,648 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 24.0, extensionBottom 0.0, extensionHeight 24.0 took 191 milliseconds
+2024-05-30 16:34:13,795 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 16.0, extensionBottom 0.0, extensionHeight 16.0 took 145 milliseconds
+2024-05-30 16:34:14,044 [32mINFO [m [m[main][m [mDiagonal Fences.makeDiagonalShapes(192)[m: Constructing shapes for nodeWith 2.0, extensionWidth 1.0, nodeHeight 16.0, extensionBottom 6.0, extensionHeight 15.0 took 238 milliseconds
+2024-05-30 16:34:20,750 [33mWARN [m [m[main][m [mmixin.warn(132)[m: @ModifyVariable(@At("INVOKE")) Shift.BY=4 on infernal-expansion.mixins.json:common.MixinMultiNoiseBiomeSourcePreset::localvar$zzi000$IE_addNetherBiomes exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+2024-05-30 16:34:21,498 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(129)[m: Infernal Expansion: Sound Events Registered!
+2024-05-30 16:34:21,701 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(312)[m: Infernal Expansion: Blocks Registered!
+2024-05-30 16:34:21,702 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(149)[m: Infernal Expansion: Items Registered!
+2024-05-30 16:34:21,704 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(38)[m: Infernal Expansion: Effects Registered!
+2024-05-30 16:34:21,710 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(41)[m: Infernal Expansion: Potions Registered!
+2024-05-30 16:34:21,718 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(124)[m: Infernal Expansion: Entity Types Registered!
+2024-05-30 16:34:21,726 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(44)[m: Infernal Expansion: Painting Types Registered!
+2024-05-30 16:34:21,728 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(38)[m: Infernal Expansion: Tile Entity Types Registered!
+2024-05-30 16:34:21,772 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(55)[m: Infernal Expansion: Biomes Registered!
+2024-05-30 16:34:21,788 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(87)[m: Infernal Expansion: Loot Modifiers Registered!
+2024-05-30 16:34:21,802 [32mINFO [m [m[modloading-worker-0][m [mo.i.i.InfernalExpansion.register(27)[m: Infernal Expansion: Entity Classifications Registered!
+2024-05-30 16:34:21,897 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.preInit(29)[m: Pre-init started!
+2024-05-30 16:34:21,898 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.preInit(31)[m: Registering config
+2024-05-30 16:34:22,047 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(75)[m: Registering particles
+2024-05-30 16:34:22,052 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(90)[m: Registering items
+2024-05-30 16:34:22,056 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(60)[m: Registering entities
+2024-05-30 16:34:22,104 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.register(29)[m: Registering sounds
+2024-05-30 16:34:22,106 [32mINFO [m [m[modloading-worker-0][m [mstrawgolem.registerCapabilities(58)[m: Registering capabilities
+2024-05-30 16:34:22,642 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,648 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,648 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,649 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,649 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,650 [32mINFO [m [m[modloading-worker-0][m [mBookshelf.setCraftingRemainderIfNull(31)[m: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+2024-05-30 16:34:22,874 [32mINFO [m [m[modloading-worker-0][m [md.k.m.Melody.init(20)[m: [MELODY] Disabling Melody since it's loaded server-side.
+2024-05-30 16:34:23,299 [32mINFO [m [m[modloading-worker-0][m [md.k.k.Konkrete.<init>(62)[m: [KONKRETE] Successfully initialized!
+2024-05-30 16:34:23,302 [32mINFO [m [m[modloading-worker-0][m [md.k.k.Konkrete.<init>(63)[m: [KONKRETE] Server-side libs ready to use!
+2024-05-30 16:34:25,174 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id architectury:sync_ids
+2024-05-30 16:34:26,321 [32mINFO [m [m[modloading-worker-0][m [mDungeon Crawl.<init>(52)[m: Here we go! Launching Dungeon Crawl 2.3.14...
+2024-05-30 16:34:26,364 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
+2024-05-30 16:34:26,364 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
+2024-05-30 16:34:26,770 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2024-05-30 16:34:27,125 [32mINFO [m [m[ForkJoinPool.commonPool-worker-3][m [mfriendsandfoes.lambda$checkForNewUpdates$0(51)[m: An update for Friends&Foes is available! You're using 1.4.6 version but the latest version is 1.4.8!
+2024-05-30 16:34:27,596 [32mINFO [m [m[modloading-worker-0][m [md.i.b.BetterAnimalsPlusMod.construct(50)[m: Injecting super coyotes...
+2024-05-30 16:34:27,608 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/23ca639241d73eaf919246602470f295
+2024-05-30 16:34:27,614 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/d8f3c48219d933a6b2302c4d780df514
+2024-05-30 16:34:27,624 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/dd94e2f3f0db361b8621d0f834adec1b
+2024-05-30 16:34:27,633 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/59f1974289d63eb58cbd6fe813098096
+2024-05-30 16:34:27,634 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id betteranimalsplus:main_channel/fd8d1482ead03ca8a9954263aa7f6289
+2024-05-30 16:34:28,153 [32mINFO [m [m[modloading-worker-0][m [mc.t.r.AbstractRegistrate.registerEventListeners(239)[m: Detected new forge version, registering events reflectively.
+2024-05-30 16:34:28,250 [32mINFO [m [m[modloading-worker-0][m [mt.k.t.KotlinForForge.<clinit>(10)[m: Kotlin For Forge Enabled!
+2024-05-30 16:34:28,252 [32mINFO [m [m[modloading-worker-0][m [mSpartan Shields.info(12)[m: Constructing Mod: Spartan Shields
+2024-05-30 16:34:28,288 [32mINFO [m [m[modloading-worker-0][m [mlibIPN.info(76)[m: [libIPN] libIPN - init in Kotlin
+2024-05-30 16:34:28,326 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id whisperwoods:main_channel/cdff7a8a5b4f3f218b5f77ef22e66016
+2024-05-30 16:34:28,327 [32mINFO [m [m[modloading-worker-0][m [md.a.n.f.NetworkManagerImpl.registerC2SReceiver(169)[m: Registering C2S receiver with id whisperwoods:main_channel/773a011a51b630fba84ab824165fbd92
+2024-05-30 16:34:28,341 [32mINFO [m [m[modloading-worker-0][m [md.i.w.WhisperwoodsMod.construct(30)[m: Spooking you...
+2024-05-30 16:34:28,770 [32mINFO [m [m[modloading-worker-0][m [mPuzzles Lib.construct(30)[m: Constructing common components for diagonalfences:main
+2024-05-30 16:34:28,948 [32mINFO [m [m[modloading-worker-0][m [mPuzzles Lib.construct(30)[m: Constructing common components for puzzleslib:main
+2024-05-30 16:34:29,824 [32mINFO [m [m[modloading-worker-0][m [mb.f.e.ExpandAbility.init(12)[m: ExpandAbility here, who dis?
+2024-05-30 16:34:30,005 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModBlockEntityTypes.onModConstruction(28)[m: Loaded block entity configuration.
+2024-05-30 16:34:30,027 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModBlocks.onModConstruction(101)[m: Loaded block configuration.
+2024-05-30 16:34:30,039 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModChiselModeGroups.onModConstruction(140)[m: Loaded chisel mode group configuration.
+2024-05-30 16:34:31,710 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModChiselModes.onModConstruction(292)[m: Loaded chisel mode configuration.
+2024-05-30 16:34:31,715 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModContainerTypes.onModConstruction(48)[m: Loaded container type configuration.
+2024-05-30 16:34:31,723 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModCreativeTabs.onModConstruction(61)[m: Loaded item group configuration.
+2024-05-30 16:34:31,807 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModItems.onModConstruction(106)[m: Loaded item configuration.
+2024-05-30 16:34:31,819 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModMetadataKeys.onModConstruction(84)[m: Loaded metadata key configuration.
+2024-05-30 16:34:31,838 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModelProperties.onModConstruction(24)[m: Loaded model property configuration.
+2024-05-30 16:34:31,851 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModificationOperation.onModConstruction(51)[m: Loaded modification operation configuration.
+2024-05-30 16:34:31,860 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModModificationOperationGroups.onModConstruction(51)[m: Loaded modification operation group configuration.
+2024-05-30 16:34:31,871 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModPatternPlacementTypes.onModConstruction(45)[m: Loaded pattern placement type configuration.
+2024-05-30 16:34:31,884 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModRecipeSerializers.onModConstruction(30)[m: Loaded recipe serializer configuration.
+2024-05-30 16:34:31,894 [32mINFO [m [m[modloading-worker-0][m [mm.c.r.ModTags.onModConstruction(53)[m: Loaded tag configuration.
+2024-05-30 16:34:35,079 [32mINFO [m [m[main][m [mn.j.h.Hexerei.onBlocksRegistry(371)[m: HELLO from Register Block
+2024-05-30 16:34:51,777 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `golden_apple`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:51,788 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `enchanted_golden_apple`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:51,789 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `golden_carrot`, expected `goldenfood`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:52,282 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:52,867 [32mINFO [m [m[main][m [mc.g.k.o.Occultism.onRegisterItems(67)[m: Registered BlockItems
+2024-05-30 16:34:52,868 [32mINFO [m [m[main][m [mc.g.k.o.Occultism.onRegisterItems(78)[m: Registered compostable Items
+2024-05-30 16:34:53,611 [32mINFO [m [m[main][m [mPuzzles Lib.addAllToRegistry(94)[m: Registering 1 element(s) to registry of type minecraft:block_entity_type for mod id easymagic
+2024-05-30 16:34:54,714 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:mauler] was not realized!
+2024-05-30 16:34:54,714 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:iceologer] was not realized!
+2024-05-30 16:34:54,715 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:moobloom] was not realized!
+2024-05-30 16:34:54,715 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:copper_golem] was not realized!
+2024-05-30 16:34:54,715 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:glare] was not realized!
+2024-05-30 16:34:54,785 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:mauler] was not realized!
+2024-05-30 16:34:54,786 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:iceologer] was not realized!
+2024-05-30 16:34:54,786 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:moobloom] was not realized!
+2024-05-30 16:34:54,786 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:copper_golem] was not realized!
+2024-05-30 16:34:54,787 [33mWARN [m [m[main][m [md.a.r.r.f.RegistriesImpl.handleEventPost(315)[m: Registry entry listened Registry Entry [minecraft:entity_type / friendsandfoes:glare] was not realized!
+2024-05-30 16:34:55,202 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:55,204 [32mINFO [m [m[main][m [mn.m.r.GameData.checkPrefix(946)[m: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+2024-05-30 16:34:55,385 [32mINFO [m [m[main][m [mPuzzles Lib.addAllToRegistry(94)[m: Registering 1 element(s) to registry of type minecraft:menu for mod id easymagic
+2024-05-30 16:34:55,813 [32mINFO [m [m[main][m [mm.c.r.ModRecipeTypes.onSerializerRegistration(29)[m: Registering recipe types.
