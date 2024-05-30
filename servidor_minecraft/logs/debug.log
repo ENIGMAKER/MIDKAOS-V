@@ -1,176 +1,175 @@
-2024-05-30 16:36:19,994 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-2024-05-30 16:36:20,002 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
-2024-05-30 16:36:20,016 [36mDEBUG[m [m[main][m [mc.m.m.LaunchServiceHandler.<init>(41)[m: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-2024-05-30 16:36:20,031 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.<init>(44)[m: Found naming services : [srgtomcp]
-2024-05-30 16:36:20,051 [36mDEBUG[m [m[main][m [mc.m.m.LaunchPluginHandler.<init>(58)[m: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
-2024-05-30 16:36:20,068 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(120)[m: Discovering transformation services
-2024-05-30 16:36:20,076 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(126)[m: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@6d467c87
-2024-05-30 16:36:20,089 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(137)[m: Found transformer services : [mixin,fml]
-2024-05-30 16:36:20,090 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.loadTransformationServices(115)[m: Transformation services loading
-2024-05-30 16:36:20,091 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service mixin
-2024-05-30 16:36:20,092 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service mixin
-2024-05-30 16:36:20,092 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service fml
-2024-05-30 16:36:20,094 [36mDEBUG[m [m[main][m [mn.m.f.l.LauncherVersion.<clinit>(21)[m: Found FMLLauncher version 1.0
-2024-05-30 16:36:20,095 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(61)[m: FML 1.0 loading
-2024-05-30 16:36:20,096 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(63)[m: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
-2024-05-30 16:36:20,096 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(75)[m: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-2024-05-30 16:36:20,097 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(87)[m: FML found EventBus version : 5.0.3+70+master.d7d405b
-2024-05-30 16:36:20,097 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(97)[m: Found Runtime Dist Cleaner
-2024-05-30 16:36:20,101 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(111)[m: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-2024-05-30 16:36:20,102 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(114)[m: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
-2024-05-30 16:36:20,103 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(115)[m: Found ForgeSPI package specification 4
-2024-05-30 16:36:20,106 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service fml
-2024-05-30 16:36:20,107 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.processArguments(66)[m: Configuring option handling for services
-2024-05-30 16:36:20,117 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseTransformationServices(90)[m: Transformation services initializing
-2024-05-30 16:36:20,118 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service mixin
-2024-05-30 16:36:20,141 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2a225dd7
-2024-05-30 16:36:20,155 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
-2024-05-30 16:36:20,159 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Initialising Mixin Platform Manager
-2024-05-30 16:36:20,159 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-2024-05-30 16:36:20,160 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-2024-05-30 16:36:20,160 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-2024-05-30 16:36:20,161 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-2024-05-30 16:36:20,161 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-2024-05-30 16:36:20,163 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service mixin
-2024-05-30 16:36:20,164 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service fml
-2024-05-30 16:36:20,164 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(62)[m: Setting up basic FML game directories
-2024-05-30 16:36:20,165 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing GAMEDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft
-2024-05-30 16:36:20,165 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path GAMEDIR is /workspaces/MIDKAOS-V/servidor_minecraft
-2024-05-30 16:36:20,166 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(28)[m: Making MODSDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft/mods
-2024-05-30 16:36:20,166 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(39)[m: Created MODSDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft/mods
-2024-05-30 16:36:20,166 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path MODSDIR is /workspaces/MIDKAOS-V/servidor_minecraft/mods
-2024-05-30 16:36:20,166 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing CONFIGDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft/config
-2024-05-30 16:36:20,166 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path CONFIGDIR is /workspaces/MIDKAOS-V/servidor_minecraft/config
-2024-05-30 16:36:20,167 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path FMLCONFIG is /workspaces/MIDKAOS-V/servidor_minecraft/config/fml.toml
-2024-05-30 16:36:20,167 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(64)[m: Loading configuration
-2024-05-30 16:36:20,196 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing default config directory directory : /workspaces/MIDKAOS-V/servidor_minecraft/defaultconfigs
-2024-05-30 16:36:20,196 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(66)[m: Preparing ModFile
-2024-05-30 16:36:20,198 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(77)[m: Preparing launch handler
-2024-05-30 16:36:20,199 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(135)[m: Using forgeserver as launch service
-2024-05-30 16:36:20,216 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(158)[m: Received command line version data  : VersionInfo[forgeVersion=40.2.17, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
-2024-05-30 16:36:20,218 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service fml
-2024-05-30 16:36:20,218 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(53)[m: Current naming domain is 'srg'
-2024-05-30 16:36:20,219 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(57)[m: Identified name mapping providers {}
-2024-05-30 16:36:20,219 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.runScanningTransformationServices(96)[m: Transformation services begin scanning
-2024-05-30 16:36:20,220 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service mixin
-2024-05-30 16:36:20,220 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service mixin
-2024-05-30 16:36:20,221 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service fml
-2024-05-30 16:36:20,221 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.beginScanning(85)[m: Initiating mod scan
-2024-05-30 16:36:20,230 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModListHandler.processModLists(54)[m: Found mod coordinates from lists: []
-2024-05-30 16:36:20,231 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(43)[m: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
-2024-05-30 16:36:20,426 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
-2024-05-30 16:36:20,429 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.17/fmlcore-1.18.2-40.2.17.jar
-2024-05-30 16:36:20,430 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.17/javafmllanguage-1.18.2-40.2.17.jar
-2024-05-30 16:36:20,432 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.17/lowcodelanguage-1.18.2-40.2.17.jar
-2024-05-30 16:36:20,433 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.17/mclanguage-1.18.2-40.2.17.jar
-2024-05-30 16:36:20,438 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
-2024-05-30 16:36:20,442 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.17-universal.jar with {forge} mods - versions {40.2.17}
-2024-05-30 16:36:20,479 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from server-1.18.2-20220404.173914-srg.jar, it does not contain dependency information.
-2024-05-30 16:36:20,479 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from forge-1.18.2-40.2.17-universal.jar, it does not contain dependency information.
-2024-05-30 16:36:20,480 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
-2024-05-30 16:36:20,480 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
-2024-05-30 16:36:20,482 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.18.2-40.2.17.jar, it does not contain dependency information.
-2024-05-30 16:36:20,482 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
-2024-05-30 16:36:20,524 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
-2024-05-30 16:36:20,529 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
-2024-05-30 16:36:20,535 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-2024-05-30 16:36:20,537 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
-2024-05-30 16:36:20,539 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.17-universal.jar with {forge} mods - versions {40.2.17}
-2024-05-30 16:36:20,540 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-2024-05-30 16:36:20,598 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-2024-05-30 16:36:20,599 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-2024-05-30 16:36:20,600 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-2024-05-30 16:36:20,601 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
-2024-05-30 16:36:20,601 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_method.js
-2024-05-30 16:36:20,601 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_instanceof.js
-2024-05-30 16:36:20,602 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/add_bouncer_method.js
-2024-05-30 16:36:20,603 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/registry_object_binary_compat.js
-2024-05-30 16:36:20,605 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service fml
-2024-05-30 16:36:20,649 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84)[m: Found 3 language providers
-2024-05-30 16:36:20,650 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider minecraft, version 1.0
-2024-05-30 16:36:20,652 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider lowcodefml, version 40
-2024-05-30 16:36:20,652 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider javafml, version 40
-2024-05-30 16:36:20,657 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(171)[m: Configured system mods: [minecraft, forge]
-2024-05-30 16:36:20,657 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: minecraft
-2024-05-30 16:36:20,657 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: forge
-2024-05-30 16:36:20,660 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(203)[m: Found 0 mod requirements (0 mandatory, 0 optional)
-2024-05-30 16:36:20,661 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(208)[m: Found 0 mod requirements missing (0 mandatory, 0 optional)
-2024-05-30 16:36:21,294 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseServiceTransformers(84)[m: Transformation services loading transformers
-2024-05-30 16:36:21,295 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service mixin
-2024-05-30 16:36:21,296 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service mixin
-2024-05-30 16:36:21,298 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service fml
-2024-05-30 16:36:21,299 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.transformers(132)[m: Loading coremod transformers
-2024-05-30 16:36:21,299 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_method.js
-2024-05-30 16:36:21,724 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
-2024-05-30 16:36:21,724 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_instanceof.js
-2024-05-30 16:36:21,858 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
-2024-05-30 16:36:21,858 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/add_bouncer_method.js
-2024-05-30 16:36:21,989 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
-2024-05-30 16:36:21,989 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/registry_object_binary_compat.js
-2024-05-30 16:36:22,032 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
-2024-05-30 16:36:22,041 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@20ead579 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-2024-05-30 16:36:22,042 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2b4d4327 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-2024-05-30 16:36:22,042 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16da1abc to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-2024-05-30 16:36:22,042 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@671ea6ff to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-2024-05-30 16:36:22,043 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1c52552f to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-2024-05-30 16:36:22,043 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5dc769f9 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-2024-05-30 16:36:22,043 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1b0e9707 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
-2024-05-30 16:36:22,044 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service fml
-2024-05-30 16:36:22,592 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-2024-05-30 16:36:22,593 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-2024-05-30 16:36:22,594 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(minecraft)
-2024-05-30 16:36:22,594 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-2024-05-30 16:36:22,596 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-2024-05-30 16:36:22,597 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-2024-05-30 16:36:22,598 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-2024-05-30 16:36:22,599 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-2024-05-30 16:36:22,599 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(forge)
-2024-05-30 16:36:22,600 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-2024-05-30 16:36:22,601 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-2024-05-30 16:36:22,601 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-2024-05-30 16:36:22,602 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-2024-05-30 16:36:22,602 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-2024-05-30 16:36:22,603 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: inject() running with 3 agents
-2024-05-30 16:36:22,603 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-2024-05-30 16:36:22,604 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-2024-05-30 16:36:22,604 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-2024-05-30 16:36:22,608 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
-2024-05-30 16:36:22,658 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Error cleaning class output directory: .mixin.out
-2024-05-30 16:36:22,660 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing mixins for MixinEnvironment[DEFAULT]
-2024-05-30 16:36:22,828 [36mDEBUG[m [m[main][m [mi.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63)[m: Using SLF4J as the default logging framework
-2024-05-30 16:36:22,830 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(129)[m: -Dio.netty.leakDetection.level: simple
-2024-05-30 16:36:22,830 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(130)[m: -Dio.netty.leakDetection.targetRecords: 4
-2024-05-30 16:36:22,984 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@54e43bfe
-2024-05-30 16:36:23,032 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
-2024-05-30 16:36:23,034 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
-2024-05-30 16:36:23,062 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@54e43bfe
-2024-05-30 16:36:23,089 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
-2024-05-30 16:36:23,090 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
-2024-05-30 16:36:23,901 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/LiquidBlock
-2024-05-30 16:36:23,959 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/StairBlock
-2024-05-30 16:36:24,091 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/FlowerPotBlock
-2024-05-30 16:36:25,064 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraftforge/registries/RegistryObject
-2024-05-30 16:36:25,756 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/ItemStack
-2024-05-30 16:36:30,861 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/effect/MobEffectInstance
-2024-05-30 16:36:32,398 [36mDEBUG[m [m[main][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 5364
-2024-05-30 16:36:32,438 [36mDEBUG[m [m[main][m [mn.m.f.ModWorkManager.parallelExecutor(97)[m: Using 4 threads for parallel mod-loading
-2024-05-30 16:36:32,459 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLJavaModLanguageProvider.loadMod(60)[m: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@54e43bfe - got cpw.mods.cl.ModuleClassLoader@47fbc56
-2024-05-30 16:36:32,460 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLModContainer.<init>(37)[m: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-2024-05-30 16:36:32,549 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(30)[m: Forge Version package package net.minecraftforge.versions.forge, Forge, version 38.0 from cpw.mods.modlauncher.TransformingClassLoader@54e43bfe
-2024-05-30 16:36:32,550 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(42)[m: Found Forge version 40.2.17
-2024-05-30 16:36:32,550 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(43)[m: Found Forge spec 38.0
-2024-05-30 16:36:32,551 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(44)[m: Found Forge group net.minecraftforge
-2024-05-30 16:36:32,551 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(21)[m: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@54e43bfe
-2024-05-30 16:36:32,551 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(28)[m: Found MC version information 1.18.2
-2024-05-30 16:36:32,559 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(29)[m: Found MCP version information 20220404.173914
-2024-05-30 16:36:32,559 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
-2024-05-30 16:36:32,561 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
-2024-05-30 16:36:32,786 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.explicitNoUnsafeCause0(460)[m: -Dio.netty.noUnsafe: false
-2024-05-30 16:36:32,787 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.javaVersion0(954)[m: Java version: 21
-2024-05-30 16:36:32,789 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(135)[m: sun.misc.Unsafe.theUnsafe: available
-2024-05-30 16:36:32,791 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(159)[m: sun.misc.Unsafe.copyMemory: available
-2024-05-30 16:36:32,792 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(202)[m: java.nio.Buffer.address: available
-2024-05-30 16:36:32,794 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(282)[m: direct buffer constructor: unavailable
+2024-05-30 16:37:36,323 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2024-05-30 16:37:36,328 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+2024-05-30 16:37:36,340 [36mDEBUG[m [m[main][m [mc.m.m.LaunchServiceHandler.<init>(41)[m: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+2024-05-30 16:37:36,352 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.<init>(44)[m: Found naming services : [srgtomcp]
+2024-05-30 16:37:36,364 [36mDEBUG[m [m[main][m [mc.m.m.LaunchPluginHandler.<init>(58)[m: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
+2024-05-30 16:37:36,381 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(120)[m: Discovering transformation services
+2024-05-30 16:37:36,391 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(126)[m: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@29182679
+2024-05-30 16:37:36,405 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(137)[m: Found transformer services : [mixin,fml]
+2024-05-30 16:37:36,406 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.loadTransformationServices(115)[m: Transformation services loading
+2024-05-30 16:37:36,406 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service mixin
+2024-05-30 16:37:36,407 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service mixin
+2024-05-30 16:37:36,407 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service fml
+2024-05-30 16:37:36,409 [36mDEBUG[m [m[main][m [mn.m.f.l.LauncherVersion.<clinit>(21)[m: Found FMLLauncher version 1.0
+2024-05-30 16:37:36,409 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(61)[m: FML 1.0 loading
+2024-05-30 16:37:36,410 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(63)[m: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+2024-05-30 16:37:36,410 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(75)[m: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+2024-05-30 16:37:36,410 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(87)[m: FML found EventBus version : 5.0.3+70+master.d7d405b
+2024-05-30 16:37:36,411 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(97)[m: Found Runtime Dist Cleaner
+2024-05-30 16:37:36,424 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(111)[m: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+2024-05-30 16:37:36,424 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(114)[m: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+2024-05-30 16:37:36,424 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(115)[m: Found ForgeSPI package specification 4
+2024-05-30 16:37:36,426 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service fml
+2024-05-30 16:37:36,427 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.processArguments(66)[m: Configuring option handling for services
+2024-05-30 16:37:36,436 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseTransformationServices(90)[m: Transformation services initializing
+2024-05-30 16:37:36,437 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service mixin
+2024-05-30 16:37:36,452 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2a225dd7
+2024-05-30 16:37:36,471 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2024-05-30 16:37:36,475 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Initialising Mixin Platform Manager
+2024-05-30 16:37:36,475 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-05-30 16:37:36,476 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-05-30 16:37:36,476 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-05-30 16:37:36,477 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-05-30 16:37:36,477 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2024-05-30 16:37:36,481 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service mixin
+2024-05-30 16:37:36,481 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service fml
+2024-05-30 16:37:36,482 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(62)[m: Setting up basic FML game directories
+2024-05-30 16:37:36,483 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing GAMEDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft
+2024-05-30 16:37:36,483 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path GAMEDIR is /workspaces/MIDKAOS-V/servidor_minecraft
+2024-05-30 16:37:36,483 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing MODSDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft/mods
+2024-05-30 16:37:36,484 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path MODSDIR is /workspaces/MIDKAOS-V/servidor_minecraft/mods
+2024-05-30 16:37:36,484 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing CONFIGDIR directory : /workspaces/MIDKAOS-V/servidor_minecraft/config
+2024-05-30 16:37:36,485 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path CONFIGDIR is /workspaces/MIDKAOS-V/servidor_minecraft/config
+2024-05-30 16:37:36,485 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path FMLCONFIG is /workspaces/MIDKAOS-V/servidor_minecraft/config/fml.toml
+2024-05-30 16:37:36,485 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(64)[m: Loading configuration
+2024-05-30 16:37:36,561 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing default config directory directory : /workspaces/MIDKAOS-V/servidor_minecraft/defaultconfigs
+2024-05-30 16:37:36,562 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(66)[m: Preparing ModFile
+2024-05-30 16:37:36,565 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(77)[m: Preparing launch handler
+2024-05-30 16:37:36,566 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(135)[m: Using forgeserver as launch service
+2024-05-30 16:37:36,591 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(158)[m: Received command line version data  : VersionInfo[forgeVersion=40.2.17, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+2024-05-30 16:37:36,593 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service fml
+2024-05-30 16:37:36,593 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(53)[m: Current naming domain is 'srg'
+2024-05-30 16:37:36,594 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(57)[m: Identified name mapping providers {}
+2024-05-30 16:37:36,594 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.runScanningTransformationServices(96)[m: Transformation services begin scanning
+2024-05-30 16:37:36,595 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service mixin
+2024-05-30 16:37:36,595 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service mixin
+2024-05-30 16:37:36,595 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service fml
+2024-05-30 16:37:36,595 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.beginScanning(85)[m: Initiating mod scan
+2024-05-30 16:37:36,604 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModListHandler.processModLists(54)[m: Found mod coordinates from lists: []
+2024-05-30 16:37:36,605 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(43)[m: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+2024-05-30 16:37:36,810 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2024-05-30 16:37:36,813 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.17/fmlcore-1.18.2-40.2.17.jar
+2024-05-30 16:37:36,816 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.17/javafmllanguage-1.18.2-40.2.17.jar
+2024-05-30 16:37:36,818 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.17/lowcodelanguage-1.18.2-40.2.17.jar
+2024-05-30 16:37:36,819 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.17/mclanguage-1.18.2-40.2.17.jar
+2024-05-30 16:37:36,824 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
+2024-05-30 16:37:36,830 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.17-universal.jar with {forge} mods - versions {40.2.17}
+2024-05-30 16:37:36,859 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from server-1.18.2-20220404.173914-srg.jar, it does not contain dependency information.
+2024-05-30 16:37:36,860 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from forge-1.18.2-40.2.17-universal.jar, it does not contain dependency information.
+2024-05-30 16:37:36,860 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
+2024-05-30 16:37:36,860 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
+2024-05-30 16:37:36,860 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.18.2-40.2.17.jar, it does not contain dependency information.
+2024-05-30 16:37:36,862 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.18.2-40.2.17.jar, it does not contain dependency information.
+2024-05-30 16:37:36,902 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2024-05-30 16:37:36,906 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2024-05-30 16:37:36,912 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+2024-05-30 16:37:36,914 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
+2024-05-30 16:37:36,915 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.17-universal.jar with {forge} mods - versions {40.2.17}
+2024-05-30 16:37:36,916 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+2024-05-30 16:37:36,967 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+2024-05-30 16:37:36,969 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+2024-05-30 16:37:36,969 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+2024-05-30 16:37:36,969 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+2024-05-30 16:37:36,970 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_method.js
+2024-05-30 16:37:36,970 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_instanceof.js
+2024-05-30 16:37:36,971 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/add_bouncer_method.js
+2024-05-30 16:37:36,971 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/registry_object_binary_compat.js
+2024-05-30 16:37:36,973 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service fml
+2024-05-30 16:37:37,012 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84)[m: Found 3 language providers
+2024-05-30 16:37:37,015 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider minecraft, version 1.0
+2024-05-30 16:37:37,018 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider lowcodefml, version 40
+2024-05-30 16:37:37,019 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider javafml, version 40
+2024-05-30 16:37:37,023 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(171)[m: Configured system mods: [minecraft, forge]
+2024-05-30 16:37:37,024 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: minecraft
+2024-05-30 16:37:37,024 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: forge
+2024-05-30 16:37:37,027 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(203)[m: Found 0 mod requirements (0 mandatory, 0 optional)
+2024-05-30 16:37:37,028 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(208)[m: Found 0 mod requirements missing (0 mandatory, 0 optional)
+2024-05-30 16:37:37,624 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseServiceTransformers(84)[m: Transformation services loading transformers
+2024-05-30 16:37:37,625 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service mixin
+2024-05-30 16:37:37,626 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service mixin
+2024-05-30 16:37:37,626 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service fml
+2024-05-30 16:37:37,626 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.transformers(132)[m: Loading coremod transformers
+2024-05-30 16:37:37,627 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_method.js
+2024-05-30 16:37:37,862 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-05-30 16:37:37,862 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_instanceof.js
+2024-05-30 16:37:38,007 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-05-30 16:37:38,012 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/add_bouncer_method.js
+2024-05-30 16:37:38,130 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-05-30 16:37:38,131 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/registry_object_binary_compat.js
+2024-05-30 16:37:38,213 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2024-05-30 16:37:38,228 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5426cb36 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+2024-05-30 16:37:38,231 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@16da1abc to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+2024-05-30 16:37:38,232 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@671ea6ff to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+2024-05-30 16:37:38,233 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1c52552f to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+2024-05-30 16:37:38,233 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5dc769f9 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+2024-05-30 16:37:38,234 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1b0e9707 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+2024-05-30 16:37:38,235 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@9b5f3c7 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+2024-05-30 16:37:38,235 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service fml
+2024-05-30 16:37:38,701 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-05-30 16:37:38,705 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-05-30 16:37:38,705 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(minecraft)
+2024-05-30 16:37:38,706 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+2024-05-30 16:37:38,707 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+2024-05-30 16:37:38,709 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+2024-05-30 16:37:38,710 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+2024-05-30 16:37:38,712 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2024-05-30 16:37:38,713 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(forge)
+2024-05-30 16:37:38,714 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+2024-05-30 16:37:38,714 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+2024-05-30 16:37:38,714 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+2024-05-30 16:37:38,715 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+2024-05-30 16:37:38,716 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2024-05-30 16:37:38,716 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: inject() running with 3 agents
+2024-05-30 16:37:38,717 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2024-05-30 16:37:38,717 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2024-05-30 16:37:38,717 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2024-05-30 16:37:38,719 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-05-30 16:37:38,798 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Error cleaning class output directory: .mixin.out
+2024-05-30 16:37:38,800 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing mixins for MixinEnvironment[DEFAULT]
+2024-05-30 16:37:39,044 [36mDEBUG[m [m[main][m [mi.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63)[m: Using SLF4J as the default logging framework
+2024-05-30 16:37:39,055 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(129)[m: -Dio.netty.leakDetection.level: simple
+2024-05-30 16:37:39,056 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(130)[m: -Dio.netty.leakDetection.targetRecords: 4
+2024-05-30 16:37:39,242 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@64387c17
+2024-05-30 16:37:39,269 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2024-05-30 16:37:39,270 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2024-05-30 16:37:39,313 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@64387c17
+2024-05-30 16:37:39,381 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2024-05-30 16:37:39,382 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2024-05-30 16:37:40,144 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/LiquidBlock
+2024-05-30 16:37:40,203 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/StairBlock
+2024-05-30 16:37:40,311 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/FlowerPotBlock
+2024-05-30 16:37:41,409 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraftforge/registries/RegistryObject
+2024-05-30 16:37:42,187 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/ItemStack
+2024-05-30 16:37:47,401 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/effect/MobEffectInstance
+2024-05-30 16:37:48,587 [36mDEBUG[m [m[main][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 5364
+2024-05-30 16:37:48,637 [36mDEBUG[m [m[main][m [mn.m.f.ModWorkManager.parallelExecutor(97)[m: Using 4 threads for parallel mod-loading
+2024-05-30 16:37:48,660 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLJavaModLanguageProvider.loadMod(60)[m: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@64387c17 - got cpw.mods.cl.ModuleClassLoader@151ef57f
+2024-05-30 16:37:48,666 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLModContainer.<init>(37)[m: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+2024-05-30 16:37:48,813 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(30)[m: Forge Version package package net.minecraftforge.versions.forge, Forge, version 38.0 from cpw.mods.modlauncher.TransformingClassLoader@64387c17
+2024-05-30 16:37:48,815 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(42)[m: Found Forge version 40.2.17
+2024-05-30 16:37:48,816 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(43)[m: Found Forge spec 38.0
+2024-05-30 16:37:48,816 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(44)[m: Found Forge group net.minecraftforge
+2024-05-30 16:37:48,819 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(21)[m: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@64387c17
+2024-05-30 16:37:48,820 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(28)[m: Found MC version information 1.18.2
+2024-05-30 16:37:48,820 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(29)[m: Found MCP version information 20220404.173914
+2024-05-30 16:37:48,822 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
+2024-05-30 16:37:48,829 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
+2024-05-30 16:37:49,010 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.explicitNoUnsafeCause0(460)[m: -Dio.netty.noUnsafe: false
+2024-05-30 16:37:49,010 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.javaVersion0(954)[m: Java version: 21
+2024-05-30 16:37:49,031 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(135)[m: sun.misc.Unsafe.theUnsafe: available
+2024-05-30 16:37:49,032 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(159)[m: sun.misc.Unsafe.copyMemory: available
+2024-05-30 16:37:49,032 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(202)[m: java.nio.Buffer.address: available
+2024-05-30 16:37:49,034 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(282)[m: direct buffer constructor: unavailable
 java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at java.lang.Class.getConstructor0(Class.java:3761) ~[?:?]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
@@ -196,8 +195,8 @@ java.lang.NoSuchMethodException: java.nio.DirectByteBuffer.<init>(long,int)
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-2024-05-30 16:36:32,797 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(350)[m: java.nio.Bits.unaligned: available, true
-2024-05-30 16:36:32,799 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(414)[m: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+2024-05-30 16:37:49,035 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(350)[m: java.nio.Bits.unaligned: available, true
+2024-05-30 16:37:49,036 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(414)[m: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
@@ -224,33 +223,31 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-2024-05-30 16:36:32,802 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(446)[m: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2024-05-30 16:36:32,802 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.unsafeUnavailabilityCause0(1103)[m: sun.misc.Unsafe: available
-2024-05-30 16:36:32,804 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.maxDirectMemory0(1205)[m: maxDirectMemory: 17179869184 bytes (maybe)
-2024-05-30 16:36:32,805 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.tmpdir0(1224)[m: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
-2024-05-30 16:36:32,805 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.bitMode0(1303)[m: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2024-05-30 16:36:32,807 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(178)[m: -Dio.netty.maxDirectMemory: -1 bytes
-2024-05-30 16:36:32,808 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(185)[m: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2024-05-30 16:36:32,810 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.CleanerJava9.<clinit>(71)[m: java.nio.ByteBuffer.cleaner(): available
-2024-05-30 16:36:32,811 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(205)[m: -Dio.netty.noPreferDirect: false
-2024-05-30 16:36:32,888 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(150)[m: Loading Network data for FML net version: FML3
-2024-05-30 16:36:32,984 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-client.toml for forge tracking
-2024-05-30 16:36:32,986 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-server.toml for forge tracking
-2024-05-30 16:36:32,986 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-common.toml for forge tracking
-2024-05-30 16:36:33,085 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
-2024-05-30 16:36:33,092 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.inject(40)[m: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-2024-05-30 16:36:33,101 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-2024-05-30 16:36:33,938 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type COMMON
-2024-05-30 16:36:33,940 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml
-2024-05-30 16:36:33,940 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml
-2024-05-30 16:36:33,956 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml for changes
-2024-05-30 16:36:33,959 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfig.onLoad(202)[m: Loaded forge config file forge-common.toml
-2024-05-30 16:36:33,960 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
-2024-05-30 16:36:33,961 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
-2024-05-30 16:36:33,962 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
-2024-05-30 16:36:33,962 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
-2024-05-30 16:36:37,000 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-2024-05-30 16:36:37,406 [33mWARN [m [m[main][m [mn.m.c.ForgeHooks.readAdditionalLevelSaveData(1547)[m: The following mods have version differences that were not resolved:
+2024-05-30 16:37:49,038 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(446)[m: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-30 16:37:49,038 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.unsafeUnavailabilityCause0(1103)[m: sun.misc.Unsafe: available
+2024-05-30 16:37:49,039 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.maxDirectMemory0(1205)[m: maxDirectMemory: 17179869184 bytes (maybe)
+2024-05-30 16:37:49,039 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.tmpdir0(1224)[m: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2024-05-30 16:37:49,039 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.bitMode0(1303)[m: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-30 16:37:49,040 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(178)[m: -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-30 16:37:49,044 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(185)[m: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-30 16:37:49,045 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.CleanerJava9.<clinit>(71)[m: java.nio.ByteBuffer.cleaner(): available
+2024-05-30 16:37:49,045 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(205)[m: -Dio.netty.noPreferDirect: false
+2024-05-30 16:37:49,135 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(150)[m: Loading Network data for FML net version: FML3
+2024-05-30 16:37:49,278 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-client.toml for forge tracking
+2024-05-30 16:37:49,280 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-server.toml for forge tracking
+2024-05-30 16:37:49,283 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-common.toml for forge tracking
+2024-05-30 16:37:49,410 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2024-05-30 16:37:49,413 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.inject(40)[m: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+2024-05-30 16:37:49,416 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+2024-05-30 16:37:50,190 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type COMMON
+2024-05-30 16:37:50,191 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml
+2024-05-30 16:37:50,203 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml
+2024-05-30 16:37:50,204 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file /workspaces/MIDKAOS-V/servidor_minecraft/config/forge-common.toml for changes
+2024-05-30 16:37:50,206 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfig.onLoad(202)[m: Loaded forge config file forge-common.toml
+2024-05-30 16:37:50,207 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2024-05-30 16:37:50,207 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
+2024-05-30 16:37:52,529 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-05-30 16:37:52,814 [33mWARN [m [m[main][m [mn.m.c.ForgeHooks.readAdditionalLevelSaveData(1547)[m: The following mods have version differences that were not resolved:
 advancementplaques (version 1.4.5.1 -> MISSING)
 alexsmobs (version 1.18.6 -> MISSING)
 ambientsounds (version 5.3.9 -> MISSING)
@@ -380,14 +377,14 @@ whisperwoods (version 1.18.2-2.1.0 -> MISSING)
 witherstormmod (version 2.2.1 -> MISSING)
 worldedit (version 7.2.10+1742f98 -> MISSING)
 Things may not work well.
-2024-05-30 16:36:37,574 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(735)[m: Forge Mod Loader detected missing/unknown registrie(s).
+2024-05-30 16:37:53,008 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(735)[m: Forge Mod Loader detected missing/unknown registrie(s).
 
 There are 7 missing registries in this save.
 If you continue the missing registries will get removed.
 This may cause issues, it is advised that you create a world backup before continuing.
 
 
-2024-05-30 16:36:37,577 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(736)[m: Missing Registries:
+2024-05-30 16:37:53,011 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(736)[m: Missing Registries:
 doggytalents:accessories
 doggytalents:accessory_type
 tombstone:perks
@@ -396,7 +393,7 @@ beyond_earth:rocket_part
 occultism:spirit_job_factory
 doggytalents:talents
 
-2024-05-30 16:36:38,048 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:block
+2024-05-30 16:37:53,371 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:block
 	alexsmobs:banana_peel: 1886
 	alexsmobs:bison_carpet: 1899
 	alexsmobs:bison_fur_block: 1898
@@ -13673,7 +13670,7 @@ doggytalents:talents
 	witherstormmod:tainted_zombie_sitting: 9798
 	witherstormmod:tainted_zombie_wall: 9799
 
-2024-05-30 16:36:38,946 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:enchantment
+2024-05-30 16:37:53,975 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:enchantment
 	alexsmobs:board_return: 41
 	alexsmobs:lavawax: 39
 	alexsmobs:serpentfriend: 40
@@ -13709,7 +13706,7 @@ doggytalents:talents
 	tombstone:soulbound: 45
 	warden_and_sculk:swift_sneak: 71
 
-2024-05-30 16:36:38,952 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:entity_type
+2024-05-30 16:37:53,985 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:entity_type
 	alexsmobs:alligator_snapping_turtle: 192
 	alexsmobs:anaconda: 231
 	alexsmobs:anaconda_part: 232
@@ -14275,7 +14272,7 @@ doggytalents:talents
 	witherstormmod:wither_storm_segment: 373
 	witherstormmod:withered_symbiont: 382
 
-2024-05-30 16:36:38,964 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:fluid
+2024-05-30 16:37:54,012 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:fluid
 	beyond_earth:flowing_fuel: 13
 	beyond_earth:flowing_oil: 15
 	beyond_earth:fuel: 14
@@ -14305,7 +14302,7 @@ doggytalents:talents
 	sophisticatedcore:xp_flowing: 12
 	sophisticatedcore:xp_still: 11
 
-2024-05-30 16:36:39,162 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:item
+2024-05-30 16:37:54,180 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:item
 	alexsmobs:acacia_blossom: 2347
 	alexsmobs:ambergris: 2372
 	alexsmobs:ancient_dart: 2313
@@ -29675,7 +29672,7 @@ doggytalents:talents
 	witherstormmod:withered_nether_star: 10863
 	witherstormmod:withered_symbiont_spawn_egg: 10870
 
-2024-05-30 16:36:39,687 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:memory_module_type
+2024-05-30 16:37:54,842 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:memory_module_type
 	mca:forced_home: 83
 	mca:hit_by_player: 81
 	mca:last_cant_find_home_pissed_moment: 84
@@ -29704,7 +29701,7 @@ doggytalents:talents
 	smartbrainlib:target_unreachable: 72
 	witherstormmod:nearest_wither_storm: 70
 
-2024-05-30 16:36:39,690 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:mob_effect
+2024-05-30 16:37:54,853 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:mob_effect
 	alexsmobs:bug_pheromones: 42
 	alexsmobs:clinging: 44
 	alexsmobs:debilitating_sting: 48
@@ -29802,7 +29799,7 @@ doggytalents:talents
 	warden_and_sculk:darkness: 115
 	witherstormmod:wither_sickness: 84
 
-2024-05-30 16:36:39,693 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:motive
+2024-05-30 16:37:54,855 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:motive
 	alexsmobs:dog_poker: 38
 	alexsmobs:nft: 37
 	beyond_earth:painting_earth: 39
@@ -29825,14 +29822,14 @@ doggytalents:talents
 	tombstone:crow: 45
 	witherstormmod:amulet: 44
 
-2024-05-30 16:36:39,695 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:point_of_interest_type
+2024-05-30 16:37:54,856 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:point_of_interest_type
 	alexsmobs:am_beacon: 24
 	alexsmobs:end_portal_frame: 22
 	alexsmobs:hummingbird_feeder: 25
 	alexsmobs:leafcutter_anthill: 23
 	byg:forager: 26
 
-2024-05-30 16:36:39,697 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:potion
+2024-05-30 16:37:54,857 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:potion
 	alexsmobs:bug_pheromones: 57
 	alexsmobs:clinging: 62
 	alexsmobs:knockback_resistance: 49
@@ -29879,7 +29876,7 @@ doggytalents:talents
 	tombstone:frostbite: 69
 	tombstone:spectral: 66
 
-2024-05-30 16:36:39,707 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:sound_event
+2024-05-30 16:37:54,865 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:sound_event
 	advancementplaques:ui.toast.goal_complete: 1504
 	advancementplaques:ui.toast.task_complete: 1503
 	alexsmobs:alligator_snapping_turtle_hurt: 1398
@@ -30831,7 +30828,7 @@ doggytalents:talents
 	witherstormmod:withered_symbiont_summon: 1673
 	witherstormmod:withered_symbiont_theme: 1683
 
-2024-05-30 16:36:39,726 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:villager_profession
+2024-05-30 16:37:54,916 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:villager_profession
 	byg:forager: 22
 	friendsandfoes:beekeeper: 21
 	mca:adventurer: 18
@@ -30841,7 +30838,7 @@ doggytalents:talents
 	mca:mercenary: 19
 	mca:outlaw: 15
 
-2024-05-30 16:36:39,729 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:worldgen/biome
+2024-05-30 16:37:54,917 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:worldgen/biome
 	byg:allium_fields: 64
 	byg:amaranth_fields: 65
 	byg:araucaria_savanna: 66
@@ -30922,14 +30919,14 @@ doggytalents:talents
 	terrablender:deferred_placeholder: 62
 	warden_and_sculk:sculk_biome: 63
 
-2024-05-30 16:36:39,778 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(827)[m: Forge Mod Loader detected missing registry entries.
+2024-05-30 16:37:54,967 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(827)[m: Forge Mod Loader detected missing registry entries.
 
 There are 30500 missing entries in this save.
 If you continue the missing entries will get removed.
 A world backup will be automatically created in your saves directory.
 
 
-2024-05-30 16:36:39,781 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(828)[m: Missing minecraft:sound_event:
+2024-05-30 16:37:54,976 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(828)[m: Missing minecraft:sound_event:
     advancementplaques:ui.toast.goal_complete
     advancementplaques:ui.toast.task_complete
     alexsmobs:alligator_snapping_turtle_hurt
@@ -61456,136 +61453,136 @@ Missing minecraft:entity_type:
     witherstormmod:withered_symbiont
 
 
-2024-05-30 16:36:40,476 [1;31mERROR[m [m[main][m [mn.m.r.GameData.injectSnapshot(834)[m: There are unidentified mappings in this world - we are going to attempt to process anyway
-2024-05-30 16:36:46,805 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
-2024-05-30 16:36:46,811 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
-2024-05-30 16:36:46,973 [36mDEBUG[m [m[main][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:forge for mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
-2024-05-30 16:36:46,974 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:hexerei
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flashnpcs
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:infernalexp
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playeranimator
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:doggytalents
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mcwwindows
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:incendium
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_aircraft
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:strawgolem
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedcore
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:duckling
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ctm
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cookingforblockheads
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:prism
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modernlife
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:citadel
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:alexsmobs
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mixinextras
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:bookshelf
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedbackpacks
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:balm
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_armors
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fpsreducer
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:carryon
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:melody
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:beyond_earth
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:paraglider
-2024-05-30 16:36:46,981 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cloth_config
-2024-05-30 16:36:46,981 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dragonmounts
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:konkrete
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:embeddium
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:advancementplaques
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chipped
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:farmersdelight
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ambientsounds
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supermartijn642corelib
-2024-05-30 16:36:46,987 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:born_in_chaos_v1
-2024-05-30 16:36:46,988 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trapcraft
-2024-05-30 16:36:46,989 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cataclysm
-2024-05-30 16:36:46,990 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:curios
-2024-05-30 16:36:46,991 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goldenfood
-2024-05-30 16:36:46,992 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:oculus
-2024-05-30 16:36:46,993 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:camera
-2024-05-30 16:36:46,994 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framedblocks
-2024-05-30 16:36:46,995 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:witherstormmod
-2024-05-30 16:36:46,996 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:elevatorid
-2024-05-30 16:36:46,996 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tombstone
-2024-05-30 16:36:46,997 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:worldedit
-2024-05-30 16:36:46,998 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillaarmor
-2024-05-30 16:36:46,999 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cfm
-2024-05-30 16:36:47,000 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:architectury
-2024-05-30 16:36:47,001 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framework
-2024-05-30 16:36:47,002 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:exoticbirds
-2024-05-30 16:36:47,003 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playerrevive
-2024-05-30 16:36:47,004 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterdogs_dtn
-2024-05-30 16:36:47,005 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:smartbrainlib
-2024-05-30 16:36:47,006 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trashslot
-2024-05-30 16:36:47,007 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cgm
-2024-05-30 16:36:47,008 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mca
-2024-05-30 16:36:47,008 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:easymagic
-2024-05-30 16:36:47,009 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jei
-2024-05-30 16:36:47,010 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:rottenleather
-2024-05-30 16:36:47,011 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goblintraders
-2024-05-30 16:36:47,012 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:obscure_api
-2024-05-30 16:36:47,013 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:waystones
-2024-05-30 16:36:47,014 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:clumps
-2024-05-30 16:36:47,015 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:journeymap
-2024-05-30 16:36:47,016 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:comforts
-2024-05-30 16:36:47,016 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fromtheshadows
-2024-05-30 16:36:47,017 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:artifacts
-2024-05-30 16:36:47,018 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:untamedwilds
-2024-05-30 16:36:47,019 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libx
-2024-05-30 16:36:47,019 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillatools
-2024-05-30 16:36:47,020 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cpm
-2024-05-30 16:36:47,021 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:decorative_blocks
-2024-05-30 16:36:47,022 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeoncrawl
-2024-05-30 16:36:47,023 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betteranimalsplus
-2024-05-30 16:36:47,024 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:memoryleakfix
-2024-05-30 16:36:47,025 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tlskincape
-2024-05-30 16:36:47,026 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:friendsandfoes
-2024-05-30 16:36:47,027 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:emotecraft
-2024-05-30 16:36:47,027 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:selene
-2024-05-30 16:36:47,028 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supplementaries
-2024-05-30 16:36:47,029 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ironchest
-2024-05-30 16:36:47,030 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeons_arise
-2024-05-30 16:36:47,031 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sons_of_sins
-2024-05-30 16:36:47,032 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:voicechat
-2024-05-30 16:36:47,032 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libipn
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:enchdesc
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:terrablender
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillalib
-2024-05-30 16:36:47,034 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jade
-2024-05-30 16:36:47,034 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creativecore
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterfpsdist
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:kotlinforforge
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:golems
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:whisperwoods
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:iceberg
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flywheel
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:create
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:spartanshields
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:legendarytooltips
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:polymorph
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:securitycraft
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:warden_and_sculk
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:geckolib3
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:piratas_roleplay
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:diagonalfences
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:entityculling
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:canary
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:inventoryhud
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modonomicon
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fancymenu
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creeperoverhaul
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:appleskin
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ferritecore
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:occultism
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:puzzleslib
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:byg
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dramaticdoors
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquaculture
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:expandability
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cosmeticarmorreworked
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chiselsandbits
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquamirae
-2024-05-30 16:36:50,380 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat
+2024-05-30 16:37:55,812 [1;31mERROR[m [m[main][m [mn.m.r.GameData.injectSnapshot(834)[m: There are unidentified mappings in this world - we are going to attempt to process anyway
+2024-05-30 16:38:01,973 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
+2024-05-30 16:38:01,974 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
+2024-05-30 16:38:02,345 [36mDEBUG[m [m[main][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:forge for mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.17/forge-1.18.2-40.2.17-universal.jar
+2024-05-30 16:38:02,347 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:hexerei
+2024-05-30 16:38:02,347 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flashnpcs
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:infernalexp
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playeranimator
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:doggytalents
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mcwwindows
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:incendium
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_aircraft
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:strawgolem
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedcore
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:duckling
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ctm
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cookingforblockheads
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:prism
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modernlife
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:citadel
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:alexsmobs
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mixinextras
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:bookshelf
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedbackpacks
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:balm
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_armors
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fpsreducer
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:carryon
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:melody
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:beyond_earth
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:paraglider
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cloth_config
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dragonmounts
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:konkrete
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:embeddium
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:advancementplaques
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chipped
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:farmersdelight
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ambientsounds
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supermartijn642corelib
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:born_in_chaos_v1
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trapcraft
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cataclysm
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:curios
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goldenfood
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:oculus
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:camera
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framedblocks
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:witherstormmod
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:elevatorid
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tombstone
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:worldedit
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillaarmor
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cfm
+2024-05-30 16:38:02,367 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:architectury
+2024-05-30 16:38:02,367 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framework
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:exoticbirds
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playerrevive
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterdogs_dtn
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:smartbrainlib
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trashslot
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cgm
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mca
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:easymagic
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jei
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:rottenleather
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goblintraders
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:obscure_api
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:waystones
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:clumps
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:journeymap
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:comforts
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fromtheshadows
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:artifacts
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:untamedwilds
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libx
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillatools
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cpm
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:decorative_blocks
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeoncrawl
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betteranimalsplus
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:memoryleakfix
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tlskincape
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:friendsandfoes
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:emotecraft
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:selene
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supplementaries
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ironchest
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeons_arise
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sons_of_sins
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:voicechat
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libipn
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:enchdesc
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:terrablender
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillalib
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jade
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creativecore
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterfpsdist
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:kotlinforforge
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:golems
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:whisperwoods
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:iceberg
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flywheel
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:create
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:spartanshields
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:legendarytooltips
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:polymorph
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:securitycraft
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:warden_and_sculk
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:geckolib3
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:piratas_roleplay
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:diagonalfences
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:entityculling
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:canary
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:inventoryhud
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modonomicon
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fancymenu
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creeperoverhaul
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:appleskin
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ferritecore
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:occultism
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:puzzleslib
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:byg
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dramaticdoors
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquaculture
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:expandability
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cosmeticarmorreworked
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chiselsandbits
+2024-05-30 16:38:02,394 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquamirae
+2024-05-30 16:38:05,602 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat
 java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/biome / witherstormmod:bowels]' from registry Registry[ResourceKey[minecraft:root / minecraft:worldgen/biome] (Stable)]
 	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:146) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
 	at net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings.m_204920_(FlatLevelGeneratorSettings.java:119) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
@@ -61677,7 +61674,7 @@ java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[min
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
 	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
 	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:102) [mohist.jar:1.18.2-173]
-2024-05-30 16:36:51,117 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat_old
+2024-05-30 16:38:06,108 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat_old
 java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/biome / witherstormmod:bowels]' from registry Registry[ResourceKey[minecraft:root / minecraft:worldgen/biome] (Stable)]
 	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:146) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
 	at net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings.m_204920_(FlatLevelGeneratorSettings.java:119) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
@@ -61769,7 +61766,7 @@ java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[min
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
 	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
 	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:102) [mohist.jar:1.18.2-173]
-2024-05-30 16:36:51,899 [33mWARN [m [m[main][m [mn.m.s.Main.main(228)[m: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+2024-05-30 16:38:06,900 [33mWARN [m [m[main][m [mn.m.s.Main.main(228)[m: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Unbound values in registry ResourceKey[minecraft:root / minecraft:dimension_type]: [witherstormmod:bowels, beyond_earth:mars, beyond_earth:mars_orbit, beyond_earth:mercury, beyond_earth:mercury_orbit, beyond_earth:venus]
 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]

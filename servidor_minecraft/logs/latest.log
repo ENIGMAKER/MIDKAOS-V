@@ -1,13 +1,13 @@
-2024-05-30 16:36:19,994 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
-2024-05-30 16:36:20,002 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
-2024-05-30 16:36:20,155 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
-2024-05-30 16:36:20,524 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
-2024-05-30 16:36:22,608 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
-2024-05-30 16:36:32,559 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
-2024-05-30 16:36:32,561 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
-2024-05-30 16:36:33,085 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
-2024-05-30 16:36:37,000 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-2024-05-30 16:36:37,406 [33mWARN [m [m[main][m [mn.m.c.ForgeHooks.readAdditionalLevelSaveData(1547)[m: The following mods have version differences that were not resolved:
+2024-05-30 16:37:36,323 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.17, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2024-05-30 16:37:36,328 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+2024-05-30 16:37:36,471 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2024-05-30 16:37:36,902 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2024-05-30 16:37:38,719 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2024-05-30 16:37:48,822 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(141)[m: Forge mod loading, version 40.2.17, for MC 1.18.2 with MCP 20220404.173914
+2024-05-30 16:37:48,829 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.17 Initialized
+2024-05-30 16:37:49,410 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2024-05-30 16:37:52,529 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-05-30 16:37:52,814 [33mWARN [m [m[main][m [mn.m.c.ForgeHooks.readAdditionalLevelSaveData(1547)[m: The following mods have version differences that were not resolved:
 advancementplaques (version 1.4.5.1 -> MISSING)
 alexsmobs (version 1.18.6 -> MISSING)
 ambientsounds (version 5.3.9 -> MISSING)
@@ -137,14 +137,14 @@ whisperwoods (version 1.18.2-2.1.0 -> MISSING)
 witherstormmod (version 2.2.1 -> MISSING)
 worldedit (version 7.2.10+1742f98 -> MISSING)
 Things may not work well.
-2024-05-30 16:36:37,574 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(735)[m: Forge Mod Loader detected missing/unknown registrie(s).
+2024-05-30 16:37:53,008 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(735)[m: Forge Mod Loader detected missing/unknown registrie(s).
 
 There are 7 missing registries in this save.
 If you continue the missing registries will get removed.
 This may cause issues, it is advised that you create a world backup before continuing.
 
 
-2024-05-30 16:36:37,577 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(736)[m: Missing Registries:
+2024-05-30 16:37:53,011 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(736)[m: Missing Registries:
 doggytalents:accessories
 doggytalents:accessory_type
 tombstone:perks
@@ -153,7 +153,7 @@ beyond_earth:rocket_part
 occultism:spirit_job_factory
 doggytalents:talents
 
-2024-05-30 16:36:38,048 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:block
+2024-05-30 16:37:53,371 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:block
 	alexsmobs:banana_peel: 1886
 	alexsmobs:bison_carpet: 1899
 	alexsmobs:bison_fur_block: 1898
@@ -13430,7 +13430,7 @@ doggytalents:talents
 	witherstormmod:tainted_zombie_sitting: 9798
 	witherstormmod:tainted_zombie_wall: 9799
 
-2024-05-30 16:36:38,946 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:enchantment
+2024-05-30 16:37:53,975 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:enchantment
 	alexsmobs:board_return: 41
 	alexsmobs:lavawax: 39
 	alexsmobs:serpentfriend: 40
@@ -13466,7 +13466,7 @@ doggytalents:talents
 	tombstone:soulbound: 45
 	warden_and_sculk:swift_sneak: 71
 
-2024-05-30 16:36:38,952 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:entity_type
+2024-05-30 16:37:53,985 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:entity_type
 	alexsmobs:alligator_snapping_turtle: 192
 	alexsmobs:anaconda: 231
 	alexsmobs:anaconda_part: 232
@@ -14032,7 +14032,7 @@ doggytalents:talents
 	witherstormmod:wither_storm_segment: 373
 	witherstormmod:withered_symbiont: 382
 
-2024-05-30 16:36:38,964 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:fluid
+2024-05-30 16:37:54,012 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:fluid
 	beyond_earth:flowing_fuel: 13
 	beyond_earth:flowing_oil: 15
 	beyond_earth:fuel: 14
@@ -14062,7 +14062,7 @@ doggytalents:talents
 	sophisticatedcore:xp_flowing: 12
 	sophisticatedcore:xp_still: 11
 
-2024-05-30 16:36:39,162 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:item
+2024-05-30 16:37:54,180 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:item
 	alexsmobs:acacia_blossom: 2347
 	alexsmobs:ambergris: 2372
 	alexsmobs:ancient_dart: 2313
@@ -29432,7 +29432,7 @@ doggytalents:talents
 	witherstormmod:withered_nether_star: 10863
 	witherstormmod:withered_symbiont_spawn_egg: 10870
 
-2024-05-30 16:36:39,687 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:memory_module_type
+2024-05-30 16:37:54,842 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:memory_module_type
 	mca:forced_home: 83
 	mca:hit_by_player: 81
 	mca:last_cant_find_home_pissed_moment: 84
@@ -29461,7 +29461,7 @@ doggytalents:talents
 	smartbrainlib:target_unreachable: 72
 	witherstormmod:nearest_wither_storm: 70
 
-2024-05-30 16:36:39,690 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:mob_effect
+2024-05-30 16:37:54,853 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:mob_effect
 	alexsmobs:bug_pheromones: 42
 	alexsmobs:clinging: 44
 	alexsmobs:debilitating_sting: 48
@@ -29559,7 +29559,7 @@ doggytalents:talents
 	warden_and_sculk:darkness: 115
 	witherstormmod:wither_sickness: 84
 
-2024-05-30 16:36:39,693 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:motive
+2024-05-30 16:37:54,855 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:motive
 	alexsmobs:dog_poker: 38
 	alexsmobs:nft: 37
 	beyond_earth:painting_earth: 39
@@ -29582,14 +29582,14 @@ doggytalents:talents
 	tombstone:crow: 45
 	witherstormmod:amulet: 44
 
-2024-05-30 16:36:39,695 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:point_of_interest_type
+2024-05-30 16:37:54,856 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:point_of_interest_type
 	alexsmobs:am_beacon: 24
 	alexsmobs:end_portal_frame: 22
 	alexsmobs:hummingbird_feeder: 25
 	alexsmobs:leafcutter_anthill: 23
 	byg:forager: 26
 
-2024-05-30 16:36:39,697 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:potion
+2024-05-30 16:37:54,857 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:potion
 	alexsmobs:bug_pheromones: 57
 	alexsmobs:clinging: 62
 	alexsmobs:knockback_resistance: 49
@@ -29636,7 +29636,7 @@ doggytalents:talents
 	tombstone:frostbite: 69
 	tombstone:spectral: 66
 
-2024-05-30 16:36:39,707 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:sound_event
+2024-05-30 16:37:54,865 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:sound_event
 	advancementplaques:ui.toast.goal_complete: 1504
 	advancementplaques:ui.toast.task_complete: 1503
 	alexsmobs:alligator_snapping_turtle_hurt: 1398
@@ -30588,7 +30588,7 @@ doggytalents:talents
 	witherstormmod:withered_symbiont_summon: 1673
 	witherstormmod:withered_symbiont_theme: 1683
 
-2024-05-30 16:36:39,726 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:villager_profession
+2024-05-30 16:37:54,916 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:villager_profession
 	byg:forager: 22
 	friendsandfoes:beekeeper: 21
 	mca:adventurer: 18
@@ -30598,7 +30598,7 @@ doggytalents:talents
 	mca:mercenary: 19
 	mca:outlaw: 15
 
-2024-05-30 16:36:39,729 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:worldgen/biome
+2024-05-30 16:37:54,917 [1;31mERROR[m [m[main][m [mn.m.r.GameData.lambda$injectSnapshot$40(798)[m: Unidentified mapping from registry minecraft:worldgen/biome
 	byg:allium_fields: 64
 	byg:amaranth_fields: 65
 	byg:araucaria_savanna: 66
@@ -30679,14 +30679,14 @@ doggytalents:talents
 	terrablender:deferred_placeholder: 62
 	warden_and_sculk:sculk_biome: 63
 
-2024-05-30 16:36:39,778 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(827)[m: Forge Mod Loader detected missing registry entries.
+2024-05-30 16:37:54,967 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(827)[m: Forge Mod Loader detected missing registry entries.
 
 There are 30500 missing entries in this save.
 If you continue the missing entries will get removed.
 A world backup will be automatically created in your saves directory.
 
 
-2024-05-30 16:36:39,781 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(828)[m: Missing minecraft:sound_event:
+2024-05-30 16:37:54,976 [33mWARN [m [m[main][m [mn.m.r.GameData.injectSnapshot(828)[m: Missing minecraft:sound_event:
     advancementplaques:ui.toast.goal_complete
     advancementplaques:ui.toast.task_complete
     alexsmobs:alligator_snapping_turtle_hurt
@@ -61213,135 +61213,135 @@ Missing minecraft:entity_type:
     witherstormmod:withered_symbiont
 
 
-2024-05-30 16:36:40,476 [1;31mERROR[m [m[main][m [mn.m.r.GameData.injectSnapshot(834)[m: There are unidentified mappings in this world - we are going to attempt to process anyway
-2024-05-30 16:36:46,805 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
-2024-05-30 16:36:46,811 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
-2024-05-30 16:36:46,974 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:hexerei
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flashnpcs
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:infernalexp
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playeranimator
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:doggytalents
-2024-05-30 16:36:46,975 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mcwwindows
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:incendium
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_aircraft
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:strawgolem
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedcore
-2024-05-30 16:36:46,976 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:duckling
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ctm
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cookingforblockheads
-2024-05-30 16:36:46,977 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:prism
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modernlife
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:citadel
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:alexsmobs
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mixinextras
-2024-05-30 16:36:46,978 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:bookshelf
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedbackpacks
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:balm
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_armors
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fpsreducer
-2024-05-30 16:36:46,979 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:carryon
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:melody
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:beyond_earth
-2024-05-30 16:36:46,980 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:paraglider
-2024-05-30 16:36:46,981 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cloth_config
-2024-05-30 16:36:46,981 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dragonmounts
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:konkrete
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:embeddium
-2024-05-30 16:36:46,983 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:advancementplaques
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chipped
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:farmersdelight
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ambientsounds
-2024-05-30 16:36:46,984 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supermartijn642corelib
-2024-05-30 16:36:46,987 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:born_in_chaos_v1
-2024-05-30 16:36:46,988 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trapcraft
-2024-05-30 16:36:46,989 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cataclysm
-2024-05-30 16:36:46,990 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:curios
-2024-05-30 16:36:46,991 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goldenfood
-2024-05-30 16:36:46,992 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:oculus
-2024-05-30 16:36:46,993 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:camera
-2024-05-30 16:36:46,994 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framedblocks
-2024-05-30 16:36:46,995 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:witherstormmod
-2024-05-30 16:36:46,996 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:elevatorid
-2024-05-30 16:36:46,996 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tombstone
-2024-05-30 16:36:46,997 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:worldedit
-2024-05-30 16:36:46,998 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillaarmor
-2024-05-30 16:36:46,999 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cfm
-2024-05-30 16:36:47,000 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:architectury
-2024-05-30 16:36:47,001 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framework
-2024-05-30 16:36:47,002 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:exoticbirds
-2024-05-30 16:36:47,003 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playerrevive
-2024-05-30 16:36:47,004 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterdogs_dtn
-2024-05-30 16:36:47,005 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:smartbrainlib
-2024-05-30 16:36:47,006 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trashslot
-2024-05-30 16:36:47,007 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cgm
-2024-05-30 16:36:47,008 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mca
-2024-05-30 16:36:47,008 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:easymagic
-2024-05-30 16:36:47,009 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jei
-2024-05-30 16:36:47,010 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:rottenleather
-2024-05-30 16:36:47,011 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goblintraders
-2024-05-30 16:36:47,012 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:obscure_api
-2024-05-30 16:36:47,013 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:waystones
-2024-05-30 16:36:47,014 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:clumps
-2024-05-30 16:36:47,015 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:journeymap
-2024-05-30 16:36:47,016 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:comforts
-2024-05-30 16:36:47,016 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fromtheshadows
-2024-05-30 16:36:47,017 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:artifacts
-2024-05-30 16:36:47,018 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:untamedwilds
-2024-05-30 16:36:47,019 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libx
-2024-05-30 16:36:47,019 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillatools
-2024-05-30 16:36:47,020 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cpm
-2024-05-30 16:36:47,021 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:decorative_blocks
-2024-05-30 16:36:47,022 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeoncrawl
-2024-05-30 16:36:47,023 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betteranimalsplus
-2024-05-30 16:36:47,024 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:memoryleakfix
-2024-05-30 16:36:47,025 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tlskincape
-2024-05-30 16:36:47,026 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:friendsandfoes
-2024-05-30 16:36:47,027 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:emotecraft
-2024-05-30 16:36:47,027 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:selene
-2024-05-30 16:36:47,028 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supplementaries
-2024-05-30 16:36:47,029 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ironchest
-2024-05-30 16:36:47,030 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeons_arise
-2024-05-30 16:36:47,031 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sons_of_sins
-2024-05-30 16:36:47,032 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:voicechat
-2024-05-30 16:36:47,032 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libipn
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:enchdesc
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:terrablender
-2024-05-30 16:36:47,033 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillalib
-2024-05-30 16:36:47,034 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jade
-2024-05-30 16:36:47,034 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creativecore
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterfpsdist
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:kotlinforforge
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:golems
-2024-05-30 16:36:47,035 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:whisperwoods
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:iceberg
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flywheel
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:create
-2024-05-30 16:36:47,038 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:spartanshields
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:legendarytooltips
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:polymorph
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:securitycraft
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:warden_and_sculk
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:geckolib3
-2024-05-30 16:36:47,039 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:piratas_roleplay
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:diagonalfences
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:entityculling
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:canary
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:inventoryhud
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modonomicon
-2024-05-30 16:36:47,040 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fancymenu
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creeperoverhaul
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:appleskin
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ferritecore
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:occultism
-2024-05-30 16:36:47,042 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:puzzleslib
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:byg
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dramaticdoors
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquaculture
-2024-05-30 16:36:47,043 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:expandability
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cosmeticarmorreworked
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chiselsandbits
-2024-05-30 16:36:47,044 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquamirae
-2024-05-30 16:36:50,380 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat
+2024-05-30 16:37:55,812 [1;31mERROR[m [m[main][m [mn.m.r.GameData.injectSnapshot(834)[m: There are unidentified mappings in this world - we are going to attempt to process anyway
+2024-05-30 16:38:01,973 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/assets/.mcassetsroot' uses unexpected schema
+2024-05-30 16:38:01,974 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2360!/data/.mcassetsroot' uses unexpected schema
+2024-05-30 16:38:02,347 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:hexerei
+2024-05-30 16:38:02,347 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flashnpcs
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:infernalexp
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playeranimator
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:doggytalents
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mcwwindows
+2024-05-30 16:38:02,348 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:incendium
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_aircraft
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:strawgolem
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedcore
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:duckling
+2024-05-30 16:38:02,349 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ctm
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cookingforblockheads
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:prism
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modernlife
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:citadel
+2024-05-30 16:38:02,350 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:alexsmobs
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mixinextras
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:bookshelf
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sophisticatedbackpacks
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:balm
+2024-05-30 16:38:02,351 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:immersive_armors
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fpsreducer
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:carryon
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:melody
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:beyond_earth
+2024-05-30 16:38:02,352 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:paraglider
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cloth_config
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dragonmounts
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:konkrete
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:embeddium
+2024-05-30 16:38:02,353 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:advancementplaques
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chipped
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:farmersdelight
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ambientsounds
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supermartijn642corelib
+2024-05-30 16:38:02,354 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:born_in_chaos_v1
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trapcraft
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cataclysm
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:curios
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goldenfood
+2024-05-30 16:38:02,355 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:oculus
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:camera
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framedblocks
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:witherstormmod
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:elevatorid
+2024-05-30 16:38:02,356 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tombstone
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:worldedit
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillaarmor
+2024-05-30 16:38:02,357 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cfm
+2024-05-30 16:38:02,367 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:architectury
+2024-05-30 16:38:02,367 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:framework
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:exoticbirds
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:playerrevive
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterdogs_dtn
+2024-05-30 16:38:02,368 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:smartbrainlib
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:trashslot
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cgm
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:mca
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:easymagic
+2024-05-30 16:38:02,369 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jei
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:rottenleather
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:goblintraders
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:obscure_api
+2024-05-30 16:38:02,370 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:waystones
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:clumps
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:journeymap
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:comforts
+2024-05-30 16:38:02,371 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fromtheshadows
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:artifacts
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:untamedwilds
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libx
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillatools
+2024-05-30 16:38:02,372 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cpm
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:decorative_blocks
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeoncrawl
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betteranimalsplus
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:memoryleakfix
+2024-05-30 16:38:02,373 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:tlskincape
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:friendsandfoes
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:emotecraft
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:selene
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:supplementaries
+2024-05-30 16:38:02,374 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ironchest
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dungeons_arise
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:sons_of_sins
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:voicechat
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:libipn
+2024-05-30 16:38:02,375 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:enchdesc
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:terrablender
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:morevanillalib
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:jade
+2024-05-30 16:38:02,376 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creativecore
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:betterfpsdist
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:kotlinforforge
+2024-05-30 16:38:02,387 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:golems
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:whisperwoods
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:iceberg
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:flywheel
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:create
+2024-05-30 16:38:02,388 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:spartanshields
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:legendarytooltips
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:polymorph
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:securitycraft
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:warden_and_sculk
+2024-05-30 16:38:02,389 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:geckolib3
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:piratas_roleplay
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:diagonalfences
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:entityculling
+2024-05-30 16:38:02,390 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:canary
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:inventoryhud
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:modonomicon
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:fancymenu
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:creeperoverhaul
+2024-05-30 16:38:02,391 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:appleskin
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:ferritecore
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:occultism
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:puzzleslib
+2024-05-30 16:38:02,392 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:byg
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:dramaticdoors
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquaculture
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:expandability
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:cosmeticarmorreworked
+2024-05-30 16:38:02,393 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:chiselsandbits
+2024-05-30 16:38:02,394 [33mWARN [m [m[main][m [mn.m.s.MinecraftServer.m_129819_(1582)[m: Missing data pack mod:aquamirae
+2024-05-30 16:38:05,602 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat
 java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/biome / witherstormmod:bowels]' from registry Registry[ResourceKey[minecraft:root / minecraft:worldgen/biome] (Stable)]
 	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:146) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
 	at net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings.m_204920_(FlatLevelGeneratorSettings.java:119) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
@@ -61433,7 +61433,7 @@ java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[min
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
 	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
 	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:102) [mohist.jar:1.18.2-173]
-2024-05-30 16:36:51,117 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat_old
+2024-05-30 16:38:06,108 [1;31mERROR[m [m[main][m [mn.m.w.l.s.LevelStorageSource.m_211741_(214)[m: Exception reading ./world/level.dat_old
 java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/biome / witherstormmod:bowels]' from registry Registry[ResourceKey[minecraft:root / minecraft:worldgen/biome] (Stable)]
 	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:146) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
 	at net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings.m_204920_(FlatLevelGeneratorSettings.java:119) ~[server-1.18.2-20220404.173914-srg.jar%2360!/:?]
@@ -61525,7 +61525,7 @@ java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[min
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
 	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
 	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:102) [mohist.jar:1.18.2-173]
-2024-05-30 16:36:51,899 [33mWARN [m [m[main][m [mn.m.s.Main.main(228)[m: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+2024-05-30 16:38:06,900 [33mWARN [m [m[main][m [mn.m.s.Main.main(228)[m: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Unbound values in registry ResourceKey[minecraft:root / minecraft:dimension_type]: [witherstormmod:bowels, beyond_earth:mars, beyond_earth:mars_orbit, beyond_earth:mercury, beyond_earth:mercury_orbit, beyond_earth:venus]
 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
