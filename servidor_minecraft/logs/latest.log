@@ -1,185 +1,82 @@
-[31May2024 17:30:18.063] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[31May2024 17:30:18.067] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
-[31May2024 17:30:18.250] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[31May2024 17:30:18.292] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/fml.toml is not correct. Correcting
-[31May2024 17:30:18.299] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[31May2024 17:30:18.302] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[31May2024 17:30:18.924] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.0/fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
-[31May2024 17:30:18.926] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.0/javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[31May2024 17:30:18.927] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.0/lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[31May2024 17:30:18.928] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.0/mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[31May2024 17:30:19.080] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[31May2024 17:30:19.201] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-	Mod ID: 'forge', Requested by: 'playerrevive', Expected range: '[40.2.14,)', Actual version: '40.2.0'
+[31May2024 17:31:04.242] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[31May2024 17:31:04.246] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+[31May2024 17:31:04.398] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[31May2024 17:31:05.024] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.0/fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[31May2024 17:31:05.028] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.0/javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[31May2024 17:31:05.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.0/lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[31May2024 17:31:05.037] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.0/mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[31May2024 17:31:05.277] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[31May2024 17:31:05.403] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
 	Mod ID: 'forge', Requested by: 'create', Expected range: '[40.2.4,)', Actual version: '40.2.0'
-	Mod ID: 'forge', Requested by: 'ambientsounds', Expected range: '[40.2.14,)', Actual version: '40.2.0'
-	Mod ID: 'forge', Requested by: 'creativecore', Expected range: '[40.2.14,)', Actual version: '40.2.0'
 	Mod ID: 'forge', Requested by: 'melody', Expected range: '[40.2.14,)', Actual version: '40.2.0'
-[31May2024 17:30:24.327] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31May2024 17:30:24.685] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[31May2024 17:30:24.686] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[31May2024 17:30:24.696] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[31May2024 17:30:24.847] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/supplementaries-registry.toml is not correct. Correcting
-[31May2024 17:30:24.849] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 17:30:24.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
-[31May2024 17:30:24.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dispensers was corrected from null to its default, true. 
-[31May2024 17:30:24.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.jar_tab was corrected from null to its default, false. 
-[31May2024 17:30:24.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.custom_configured_screen was corrected from null to its default, true. 
-[31May2024 17:30:24.853] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
-[31May2024 17:30:24.854] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 17:30:24.855] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.planter was corrected from null to its default, true. 
-[31May2024 17:30:24.856] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.clock_block was corrected from null to its default, true. 
-[31May2024 17:30:24.857] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal was corrected from null to its default, true. 
-[31May2024 17:30:24.857] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane was corrected from null to its default, true. 
-[31May2024 17:30:24.858] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.redstone_illuminator was corrected from null to its default, true. 
-[31May2024 17:30:24.858] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.notice_board was corrected from null to its default, true. 
-[31May2024 17:30:24.859] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crank was corrected from null to its default, true. 
-[31May2024 17:30:24.860] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.jar was corrected from null to its default, true. 
-[31May2024 17:30:24.861] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.faucet was corrected from null to its default, true. 
-[31May2024 17:30:24.862] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table was corrected from null to its default, true. 
-[31May2024 17:30:24.863] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher was corrected from null to its default, true. 
-[31May2024 17:30:24.864] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block was corrected from null to its default, true. 
-[31May2024 17:30:24.864] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sign_post was corrected from null to its default, true. 
-[31May2024 17:30:24.865] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hanging_sign was corrected from null to its default, true. 
-[31May2024 17:30:24.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows was corrected from null to its default, true. 
-[31May2024 17:30:24.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce was corrected from null to its default, true. 
-[31May2024 17:30:24.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_green was corrected from null to its default, false. 
-[31May2024 17:30:24.867] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cage was corrected from null to its default, true. 
-[31May2024 17:30:24.867] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf was corrected from null to its default, true. 
-[31May2024 17:30:24.870] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_lever was corrected from null to its default, true. 
-[31May2024 17:30:24.870] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cog_block was corrected from null to its default, true. 
-[31May2024 17:30:24.870] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe was corrected from null to its default, true. 
-[31May2024 17:30:24.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass was corrected from null to its default, true. 
-[31May2024 17:30:24.872] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sack was corrected from null to its default, true. 
-[31May2024 17:30:24.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackboard was corrected from null to its default, true. 
-[31May2024 17:30:24.873] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.safe was corrected from null to its default, true. 
-[31May2024 17:30:24.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.copper_lantern was corrected from null to its default, true. 
-[31May2024 17:30:24.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_trapdoor was corrected from null to its default, true. 
-[31May2024 17:30:24.874] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_door was corrected from null to its default, true. 
-[31May2024 17:30:24.875] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes was corrected from null to its default, true. 
-[31May2024 17:30:24.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes_tipped was corrected from null to its default, true. 
-[31May2024 17:30:24.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_lamp was corrected from null to its default, true. 
-[31May2024 17:30:24.877] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.end_stone_lamp was corrected from null to its default, true. 
-[31May2024 17:30:24.878] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_lamp was corrected from null to its default, true. 
-[31May2024 17:30:24.878] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.deepslate_lamp was corrected from null to its default, true. 
-[31May2024 17:30:24.879] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.checker_block was corrected from null to its default, true. 
-[31May2024 17:30:24.879] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_door was corrected from null to its default, true. 
-[31May2024 17:30:24.880] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_trapdoor was corrected from null to its default, true. 
-[31May2024 17:30:24.880] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lock_block was corrected from null to its default, true. 
-[31May2024 17:30:24.882] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flax was corrected from null to its default, true. 
-[31May2024 17:30:24.885] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.rope was corrected from null to its default, true. 
-[31May2024 17:30:24.886] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pulley_block was corrected from null to its default, true. 
-[31May2024 17:30:24.887] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.fodder was corrected from null to its default, true. 
-[31May2024 17:30:24.888] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crimson_lantern was corrected from null to its default, true. 
-[31May2024 17:30:24.888] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.magma_cream_block was corrected from null to its default, true. 
-[31May2024 17:30:24.889] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.daub was corrected from null to its default, true. 
-[31May2024 17:30:24.891] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wattle_and_daub was corrected from null to its default, true. 
-[31May2024 17:30:24.892] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame was corrected from null to its default, true. 
-[31May2024 17:30:24.893] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flag was corrected from null to its default, true. 
-[31May2024 17:30:24.894] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_tile was corrected from null to its default, true. 
-[31May2024 17:30:24.894] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.goblet was corrected from null to its default, true. 
-[31May2024 17:30:24.895] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.raked_gravel was corrected from null to its default, true. 
-[31May2024 17:30:24.895] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.statue was corrected from null to its default, true. 
-[31May2024 17:30:24.896] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate was corrected from null to its default, true. 
-[31May2024 17:30:24.897] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.feather_block was corrected from null to its default, true. 
-[31May2024 17:30:24.897] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flint_block was corrected from null to its default, true. 
-[31May2024 17:30:24.898] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.urn was corrected from null to its default, true. 
-[31May2024 17:30:24.898] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash was corrected from null to its default, true. 
-[31May2024 17:30:24.899] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash_bricks was corrected from null to its default, true. 
-[31May2024 17:30:24.900] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.doormat was corrected from null to its default, true. 
-[31May2024 17:30:24.901] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flower_box was corrected from null to its default, true. 
-[31May2024 17:30:24.902] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_tile was corrected from null to its default, true. 
-[31May2024 17:30:24.904] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe_sepia was corrected from null to its default, true. 
-[31May2024 17:30:24.904] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.present was corrected from null to its default, true. 
-[31May2024 17:30:24.905] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sugar_cube was corrected from null to its default, true. 
-[31May2024 17:30:24.905] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lapis_bricks was corrected from null to its default, true. 
-[31May2024 17:30:24.906] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.relayer was corrected from null to its default, true. 
-[31May2024 17:30:24.912] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crystal_display was corrected from null to its default, true. 
-[31May2024 17:30:24.914] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.candle_holder was corrected from null to its default, true. 
-[31May2024 17:30:24.916] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_trapdoor was corrected from null to its default, true. 
-[31May2024 17:30:24.916] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_door was corrected from null to its default, true. 
-[31May2024 17:30:24.919] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_trapdoor was corrected from null to its default, true. 
-[31May2024 17:30:24.920] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_door was corrected from null to its default, true. 
-[31May2024 17:30:24.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 17:30:24.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.flute was corrected from null to its default, true. 
-[31May2024 17:30:24.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.stasis was corrected from null to its default, true. 
-[31May2024 17:30:24.927] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.dispenser_minecart was corrected from null to its default, true. 
-[31May2024 17:30:24.929] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.soap was corrected from null to its default, true. 
-[31May2024 17:30:24.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bubble_blower was corrected from null to its default, true. 
-[31May2024 17:30:24.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.antique_ink was corrected from null to its default, true. 
-[31May2024 17:30:24.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.shulker_shell was corrected from null to its default, true. 
-[31May2024 17:30:24.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.candy was corrected from null to its default, true. 
-[31May2024 17:30:24.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.wrench was corrected from null to its default, true. 
-[31May2024 17:30:24.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.slingshot was corrected from null to its default, true. 
-[31May2024 17:30:24.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow was corrected from null to its default, true. 
-[31May2024 17:30:24.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bomb was corrected from null to its default, true. 
-[31May2024 17:30:24.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.pancake was corrected from null to its default, true. 
-[31May2024 17:30:24.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.quiver was corrected from null to its default, true. 
-[31May2024 17:30:24.987] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/dramaticdoors-common.toml is not correct. Correcting
-[31May2024 17:30:24.990] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 17:30:24.990] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_doors was corrected from null to its default, true. 
-[31May2024 17:30:24.991] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_fence_gates was corrected from null to its default, true. 
-[31May2024 17:30:25.069] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
-[31May2024 17:30:25.413] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
-[31May2024 17:30:25.413] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
-[31May2024 17:30:26.031] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.033] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.035] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.036] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.042] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.043] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.045] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.045] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.046] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.047] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.048] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.056] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.058] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.065] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.068] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.069] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.073] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.077] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.080] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.082] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.082] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.083] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.084] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.088] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.089] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.091] [main/WARN] [mixin/]: Error loading class: java/text/Normalizer$Form (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.092] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.092] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.093] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.094] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.094] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.095] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.097] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.097] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.104] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.105] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.105] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.106] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.109] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.113] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.115] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.116] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.123] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.125] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.126] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.131] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.133] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.134] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.139] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.153] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.155] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.161] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.163] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.164] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.164] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.165] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.166] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.167] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.168] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.177] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
-[31May2024 17:30:26.198] [main/WARN] [mixin/]: Error loading class: java/util/List (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+	Mod ID: 'forge', Requested by: 'playerrevive', Expected range: '[40.2.14,)', Actual version: '40.2.0'
+	Mod ID: 'forge', Requested by: 'creativecore', Expected range: '[40.2.14,)', Actual version: '40.2.0'
+	Mod ID: 'forge', Requested by: 'ambientsounds', Expected range: '[40.2.14,)', Actual version: '40.2.0'
+[31May2024 17:31:09.205] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31May2024 17:31:09.498] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[31May2024 17:31:09.499] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[31May2024 17:31:09.502] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[31May2024 17:31:09.640] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
+[31May2024 17:31:09.913] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
+[31May2024 17:31:09.914] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
+[31May2024 17:31:10.692] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.695] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.697] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.697] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.708] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.710] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.712] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.713] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.715] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.715] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.717] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.725] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.727] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.733] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.736] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.737] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.740] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.744] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.745] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.748] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.748] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.750] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.750] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.756] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.758] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.760] [main/WARN] [mixin/]: Error loading class: java/text/Normalizer$Form (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.760] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.760] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.761] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.762] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.763] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.764] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.765] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.765] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.773] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.774] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.774] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.776] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.777] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.781] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.783] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.784] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.789] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.790] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.791] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.793] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.793] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.794] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.796] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.806] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.808] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.812] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.814] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.814] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.815] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.815] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.816] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.816] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.817] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.825] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[31May2024 17:31:10.849] [main/WARN] [mixin/]: Error loading class: java/util/List (java.lang.IllegalArgumentException: Unsupported class file major version 65)
