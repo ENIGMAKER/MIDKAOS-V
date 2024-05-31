@@ -1,118 +1,118 @@
-[31May2024 16:39:33.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[31May2024 16:39:33.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
-[31May2024 16:39:33.305] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[31May2024 16:39:33.358] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/fml.toml is not correct. Correcting
-[31May2024 16:39:33.365] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[31May2024 16:39:34.040] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
-[31May2024 16:39:34.042] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[31May2024 16:39:34.043] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[31May2024 16:39:34.045] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[31May2024 16:39:34.268] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[31May2024 16:39:38.328] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31May2024 16:39:38.657] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[31May2024 16:39:38.658] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[31May2024 16:39:38.661] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[31May2024 16:39:38.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/supplementaries-registry.toml is not correct. Correcting
-[31May2024 16:39:38.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 16:39:38.752] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
-[31May2024 16:39:38.752] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dispensers was corrected from null to its default, true. 
-[31May2024 16:39:38.753] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.jar_tab was corrected from null to its default, false. 
-[31May2024 16:39:38.754] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.custom_configured_screen was corrected from null to its default, true. 
-[31May2024 16:39:38.754] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
-[31May2024 16:39:38.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 16:39:38.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.planter was corrected from null to its default, true. 
-[31May2024 16:39:38.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.clock_block was corrected from null to its default, true. 
-[31May2024 16:39:38.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal was corrected from null to its default, true. 
-[31May2024 16:39:38.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane was corrected from null to its default, true. 
-[31May2024 16:39:38.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.redstone_illuminator was corrected from null to its default, true. 
-[31May2024 16:39:38.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.notice_board was corrected from null to its default, true. 
-[31May2024 16:39:38.759] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crank was corrected from null to its default, true. 
-[31May2024 16:39:38.759] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.jar was corrected from null to its default, true. 
-[31May2024 16:39:38.760] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.faucet was corrected from null to its default, true. 
-[31May2024 16:39:38.760] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table was corrected from null to its default, true. 
-[31May2024 16:39:38.761] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher was corrected from null to its default, true. 
-[31May2024 16:39:38.761] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block was corrected from null to its default, true. 
-[31May2024 16:39:38.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sign_post was corrected from null to its default, true. 
-[31May2024 16:39:38.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hanging_sign was corrected from null to its default, true. 
-[31May2024 16:39:38.763] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows was corrected from null to its default, true. 
-[31May2024 16:39:38.763] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce was corrected from null to its default, true. 
-[31May2024 16:39:38.764] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_green was corrected from null to its default, false. 
-[31May2024 16:39:38.764] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cage was corrected from null to its default, true. 
-[31May2024 16:39:38.764] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf was corrected from null to its default, true. 
-[31May2024 16:39:38.765] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_lever was corrected from null to its default, true. 
-[31May2024 16:39:38.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cog_block was corrected from null to its default, true. 
-[31May2024 16:39:38.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe was corrected from null to its default, true. 
-[31May2024 16:39:38.767] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass was corrected from null to its default, true. 
-[31May2024 16:39:38.767] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sack was corrected from null to its default, true. 
-[31May2024 16:39:38.768] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackboard was corrected from null to its default, true. 
-[31May2024 16:39:38.768] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.safe was corrected from null to its default, true. 
-[31May2024 16:39:38.769] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.copper_lantern was corrected from null to its default, true. 
-[31May2024 16:39:38.769] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_trapdoor was corrected from null to its default, true. 
-[31May2024 16:39:38.769] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_door was corrected from null to its default, true. 
-[31May2024 16:39:38.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes was corrected from null to its default, true. 
-[31May2024 16:39:38.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes_tipped was corrected from null to its default, true. 
-[31May2024 16:39:38.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_lamp was corrected from null to its default, true. 
-[31May2024 16:39:38.772] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.end_stone_lamp was corrected from null to its default, true. 
-[31May2024 16:39:38.772] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_lamp was corrected from null to its default, true. 
-[31May2024 16:39:38.772] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.deepslate_lamp was corrected from null to its default, true. 
-[31May2024 16:39:38.773] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.checker_block was corrected from null to its default, true. 
-[31May2024 16:39:38.773] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_door was corrected from null to its default, true. 
-[31May2024 16:39:38.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_trapdoor was corrected from null to its default, true. 
-[31May2024 16:39:38.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lock_block was corrected from null to its default, true. 
-[31May2024 16:39:38.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flax was corrected from null to its default, true. 
-[31May2024 16:39:38.775] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.rope was corrected from null to its default, true. 
-[31May2024 16:39:38.776] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pulley_block was corrected from null to its default, true. 
-[31May2024 16:39:38.776] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.fodder was corrected from null to its default, true. 
-[31May2024 16:39:38.777] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crimson_lantern was corrected from null to its default, true. 
-[31May2024 16:39:38.777] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.magma_cream_block was corrected from null to its default, true. 
-[31May2024 16:39:38.777] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.daub was corrected from null to its default, true. 
-[31May2024 16:39:38.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wattle_and_daub was corrected from null to its default, true. 
-[31May2024 16:39:38.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame was corrected from null to its default, true. 
-[31May2024 16:39:38.779] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flag was corrected from null to its default, true. 
-[31May2024 16:39:38.779] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_tile was corrected from null to its default, true. 
-[31May2024 16:39:38.780] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.goblet was corrected from null to its default, true. 
-[31May2024 16:39:38.780] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.raked_gravel was corrected from null to its default, true. 
-[31May2024 16:39:38.781] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.statue was corrected from null to its default, true. 
-[31May2024 16:39:38.781] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate was corrected from null to its default, true. 
-[31May2024 16:39:38.782] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.feather_block was corrected from null to its default, true. 
-[31May2024 16:39:38.782] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flint_block was corrected from null to its default, true. 
-[31May2024 16:39:38.783] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.urn was corrected from null to its default, true. 
-[31May2024 16:39:38.783] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash was corrected from null to its default, true. 
-[31May2024 16:39:38.783] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash_bricks was corrected from null to its default, true. 
-[31May2024 16:39:38.784] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.doormat was corrected from null to its default, true. 
-[31May2024 16:39:38.784] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flower_box was corrected from null to its default, true. 
-[31May2024 16:39:38.785] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_tile was corrected from null to its default, true. 
-[31May2024 16:39:38.785] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe_sepia was corrected from null to its default, true. 
-[31May2024 16:39:38.786] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.present was corrected from null to its default, true. 
-[31May2024 16:39:38.786] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sugar_cube was corrected from null to its default, true. 
-[31May2024 16:39:38.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lapis_bricks was corrected from null to its default, true. 
-[31May2024 16:39:38.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.relayer was corrected from null to its default, true. 
-[31May2024 16:39:38.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crystal_display was corrected from null to its default, true. 
-[31May2024 16:39:38.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.candle_holder was corrected from null to its default, true. 
-[31May2024 16:39:38.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_trapdoor was corrected from null to its default, true. 
-[31May2024 16:39:38.789] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_door was corrected from null to its default, true. 
-[31May2024 16:39:38.789] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_trapdoor was corrected from null to its default, true. 
-[31May2024 16:39:38.790] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_door was corrected from null to its default, true. 
-[31May2024 16:39:38.790] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 16:39:38.791] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.flute was corrected from null to its default, true. 
-[31May2024 16:39:38.791] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.stasis was corrected from null to its default, true. 
-[31May2024 16:39:38.792] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.dispenser_minecart was corrected from null to its default, true. 
-[31May2024 16:39:38.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.soap was corrected from null to its default, true. 
-[31May2024 16:39:38.796] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bubble_blower was corrected from null to its default, true. 
-[31May2024 16:39:38.796] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.antique_ink was corrected from null to its default, true. 
-[31May2024 16:39:38.798] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.shulker_shell was corrected from null to its default, true. 
-[31May2024 16:39:38.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.candy was corrected from null to its default, true. 
-[31May2024 16:39:38.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.wrench was corrected from null to its default, true. 
-[31May2024 16:39:38.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.slingshot was corrected from null to its default, true. 
-[31May2024 16:39:38.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow was corrected from null to its default, true. 
-[31May2024 16:39:38.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bomb was corrected from null to its default, true. 
-[31May2024 16:39:38.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.pancake was corrected from null to its default, true. 
-[31May2024 16:39:38.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.quiver was corrected from null to its default, true. 
-[31May2024 16:39:38.849] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/dramaticdoors-common.toml is not correct. Correcting
-[31May2024 16:39:38.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[31May2024 16:39:38.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_doors was corrected from null to its default, true. 
-[31May2024 16:39:38.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_fence_gates was corrected from null to its default, true. 
-[31May2024 16:39:38.914] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
-[31May2024 16:39:39.495] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
-[31May2024 16:39:39.496] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
-[31May2024 16:39:41.148] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[31May2024 16:45:44.049] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[31May2024 16:45:44.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.3 by Microsoft
+[31May2024 16:45:44.185] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MIDKAOS-V/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[31May2024 16:45:44.220] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/fml.toml is not correct. Correcting
+[31May2024 16:45:44.225] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[31May2024 16:45:44.738] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[31May2024 16:45:44.740] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[31May2024 16:45:44.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[31May2024 16:45:44.743] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MIDKAOS-V/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[31May2024 16:45:44.957] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[31May2024 16:45:49.467] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31May2024 16:45:49.676] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[31May2024 16:45:49.678] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[31May2024 16:45:49.681] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[31May2024 16:45:49.737] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/supplementaries-registry.toml is not correct. Correcting
+[31May2024 16:45:49.738] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31May2024 16:45:49.738] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
+[31May2024 16:45:49.738] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dispensers was corrected from null to its default, true. 
+[31May2024 16:45:49.739] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.jar_tab was corrected from null to its default, false. 
+[31May2024 16:45:49.739] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.custom_configured_screen was corrected from null to its default, true. 
+[31May2024 16:45:49.739] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
+[31May2024 16:45:49.740] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31May2024 16:45:49.740] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.planter was corrected from null to its default, true. 
+[31May2024 16:45:49.740] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.clock_block was corrected from null to its default, true. 
+[31May2024 16:45:49.741] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal was corrected from null to its default, true. 
+[31May2024 16:45:49.741] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane was corrected from null to its default, true. 
+[31May2024 16:45:49.742] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.redstone_illuminator was corrected from null to its default, true. 
+[31May2024 16:45:49.742] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.notice_board was corrected from null to its default, true. 
+[31May2024 16:45:49.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crank was corrected from null to its default, true. 
+[31May2024 16:45:49.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.jar was corrected from null to its default, true. 
+[31May2024 16:45:49.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.faucet was corrected from null to its default, true. 
+[31May2024 16:45:49.743] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table was corrected from null to its default, true. 
+[31May2024 16:45:49.744] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher was corrected from null to its default, true. 
+[31May2024 16:45:49.744] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block was corrected from null to its default, true. 
+[31May2024 16:45:49.744] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sign_post was corrected from null to its default, true. 
+[31May2024 16:45:49.744] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hanging_sign was corrected from null to its default, true. 
+[31May2024 16:45:49.745] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows was corrected from null to its default, true. 
+[31May2024 16:45:49.745] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce was corrected from null to its default, true. 
+[31May2024 16:45:49.745] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_green was corrected from null to its default, false. 
+[31May2024 16:45:49.745] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cage was corrected from null to its default, true. 
+[31May2024 16:45:49.745] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf was corrected from null to its default, true. 
+[31May2024 16:45:49.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sconce_lever was corrected from null to its default, true. 
+[31May2024 16:45:49.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.cog_block was corrected from null to its default, true. 
+[31May2024 16:45:49.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe was corrected from null to its default, true. 
+[31May2024 16:45:49.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass was corrected from null to its default, true. 
+[31May2024 16:45:49.747] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sack was corrected from null to its default, true. 
+[31May2024 16:45:49.747] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackboard was corrected from null to its default, true. 
+[31May2024 16:45:49.747] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.safe was corrected from null to its default, true. 
+[31May2024 16:45:49.747] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.copper_lantern was corrected from null to its default, true. 
+[31May2024 16:45:49.748] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_trapdoor was corrected from null to its default, true. 
+[31May2024 16:45:49.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.gold_door was corrected from null to its default, true. 
+[31May2024 16:45:49.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes was corrected from null to its default, true. 
+[31May2024 16:45:49.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes_tipped was corrected from null to its default, true. 
+[31May2024 16:45:49.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_lamp was corrected from null to its default, true. 
+[31May2024 16:45:49.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.end_stone_lamp was corrected from null to its default, true. 
+[31May2024 16:45:49.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_lamp was corrected from null to its default, true. 
+[31May2024 16:45:49.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.deepslate_lamp was corrected from null to its default, true. 
+[31May2024 16:45:49.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.checker_block was corrected from null to its default, true. 
+[31May2024 16:45:49.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_door was corrected from null to its default, true. 
+[31May2024 16:45:49.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.netherite_trapdoor was corrected from null to its default, true. 
+[31May2024 16:45:49.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lock_block was corrected from null to its default, true. 
+[31May2024 16:45:49.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flax was corrected from null to its default, true. 
+[31May2024 16:45:49.752] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.rope was corrected from null to its default, true. 
+[31May2024 16:45:49.752] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.pulley_block was corrected from null to its default, true. 
+[31May2024 16:45:49.753] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.fodder was corrected from null to its default, true. 
+[31May2024 16:45:49.753] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crimson_lantern was corrected from null to its default, true. 
+[31May2024 16:45:49.753] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.magma_cream_block was corrected from null to its default, true. 
+[31May2024 16:45:49.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.daub was corrected from null to its default, true. 
+[31May2024 16:45:49.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.wattle_and_daub was corrected from null to its default, true. 
+[31May2024 16:45:49.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame was corrected from null to its default, true. 
+[31May2024 16:45:49.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flag was corrected from null to its default, true. 
+[31May2024 16:45:49.756] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.stone_tile was corrected from null to its default, true. 
+[31May2024 16:45:49.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.goblet was corrected from null to its default, true. 
+[31May2024 16:45:49.757] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.raked_gravel was corrected from null to its default, true. 
+[31May2024 16:45:49.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.statue was corrected from null to its default, true. 
+[31May2024 16:45:49.759] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate was corrected from null to its default, true. 
+[31May2024 16:45:49.760] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.feather_block was corrected from null to its default, true. 
+[31May2024 16:45:49.760] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flint_block was corrected from null to its default, true. 
+[31May2024 16:45:49.761] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.urn was corrected from null to its default, true. 
+[31May2024 16:45:49.761] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.ash_bricks was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.doormat was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.flower_box was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.blackstone_tile was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.globe_sepia was corrected from null to its default, true. 
+[31May2024 16:45:49.762] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.present was corrected from null to its default, true. 
+[31May2024 16:45:49.763] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.sugar_cube was corrected from null to its default, true. 
+[31May2024 16:45:49.764] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lapis_bricks was corrected from null to its default, true. 
+[31May2024 16:45:49.765] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.relayer was corrected from null to its default, true. 
+[31May2024 16:45:49.765] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.crystal_display was corrected from null to its default, true. 
+[31May2024 16:45:49.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.candle_holder was corrected from null to its default, true. 
+[31May2024 16:45:49.766] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_trapdoor was corrected from null to its default, true. 
+[31May2024 16:45:49.767] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.silver_door was corrected from null to its default, true. 
+[31May2024 16:45:49.768] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_trapdoor was corrected from null to its default, true. 
+[31May2024 16:45:49.768] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blocks.lead_door was corrected from null to its default, true. 
+[31May2024 16:45:49.769] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31May2024 16:45:49.769] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.flute was corrected from null to its default, true. 
+[31May2024 16:45:49.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.stasis was corrected from null to its default, true. 
+[31May2024 16:45:49.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.dispenser_minecart was corrected from null to its default, true. 
+[31May2024 16:45:49.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.soap was corrected from null to its default, true. 
+[31May2024 16:45:49.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bubble_blower was corrected from null to its default, true. 
+[31May2024 16:45:49.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.antique_ink was corrected from null to its default, true. 
+[31May2024 16:45:49.771] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.shulker_shell was corrected from null to its default, true. 
+[31May2024 16:45:49.772] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.candy was corrected from null to its default, true. 
+[31May2024 16:45:49.773] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.wrench was corrected from null to its default, true. 
+[31May2024 16:45:49.773] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.slingshot was corrected from null to its default, true. 
+[31May2024 16:45:49.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow was corrected from null to its default, true. 
+[31May2024 16:45:49.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.bomb was corrected from null to its default, true. 
+[31May2024 16:45:49.774] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.pancake was corrected from null to its default, true. 
+[31May2024 16:45:49.775] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key items.quiver was corrected from null to its default, true. 
+[31May2024 16:45:49.786] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MIDKAOS-V/servidor_minecraft/config/dramaticdoors-common.toml is not correct. Correcting
+[31May2024 16:45:49.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[31May2024 16:45:49.787] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_doors was corrected from null to its default, true. 
+[31May2024 16:45:49.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mixins.waterloggable_fence_gates was corrected from null to its default, true. 
+[31May2024 16:45:49.813] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
+[31May2024 16:45:50.213] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
+[31May2024 16:45:50.213] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
+[31May2024 16:45:51.400] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
