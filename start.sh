@@ -1,0 +1,1 @@
+java -Xms4G -Xms10G -jar server.jar nogui
